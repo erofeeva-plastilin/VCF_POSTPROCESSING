@@ -1,0 +1,14 @@
+2025-01-30 11:33:19 - [STDERR] VCFtools - v0.1.12b
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.vcf
+	--het
+	--out /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_het
+
+After filtering, kept 10 out of 10 Individuals
+Outputting Individual Heterozygosity
+After filtering, kept 1788147 out of a possible 1788147 Sites
+Run Time = 6.00 seconds
+2025-01-30 11:33:19 - Heterozygosity data saved as /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_het.het
+2025-01-30 11:33:19 - Execution time: 6.12 seconds

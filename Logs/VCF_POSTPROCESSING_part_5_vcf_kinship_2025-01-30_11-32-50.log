@@ -1,0 +1,2886 @@
+2025-01-30 11:32:51 - [STDOUT] PLINK v2.00a5.10LM 64-bit Intel (5 Jan 2024)   www.cog-genomics.org/plink/2.0/
+(C) 2005-2024 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_kinship.log.
+Options in effect:
+  --allow-extra-chr
+  --make-king square
+  --out /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_kinship
+  --vcf /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.vcf
+
+Start time: Thu Jan 30 11:32:50 2025
+515639 MiB RAM detected, ~476460 available; reserving 257819 MiB for main
+workspace.
+Using up to 40 threads (change this with --threads).
+
+--vcf: 1k variants scanned.
+--vcf: 2k variants scanned.
+--vcf: 3k variants scanned.
+--vcf: 4k variants scanned.
+--vcf: 5k variants scanned.
+--vcf: 6k variants scanned.
+--vcf: 7k variants scanned.
+--vcf: 8k variants scanned.
+--vcf: 9k variants scanned.
+--vcf: 10k variants scanned.
+--vcf: 11k variants scanned.
+--vcf: 12k variants scanned.
+--vcf: 13k variants scanned.
+--vcf: 14k variants scanned.
+--vcf: 15k variants scanned.
+--vcf: 16k variants scanned.
+--vcf: 17k variants scanned.
+--vcf: 18k variants scanned.
+--vcf: 19k variants scanned.
+--vcf: 20k variants scanned.
+--vcf: 21k variants scanned.
+--vcf: 22k variants scanned.
+--vcf: 23k variants scanned.
+--vcf: 24k variants scanned.
+--vcf: 25k variants scanned.
+--vcf: 26k variants scanned.
+--vcf: 27k variants scanned.
+--vcf: 28k variants scanned.
+--vcf: 29k variants scanned.
+--vcf: 30k variants scanned.
+--vcf: 31k variants scanned.
+--vcf: 32k variants scanned.
+--vcf: 33k variants scanned.
+--vcf: 34k variants scanned.
+--vcf: 35k variants scanned.
+--vcf: 36k variants scanned.
+--vcf: 37k variants scanned.
+--vcf: 38k variants scanned.
+--vcf: 39k variants scanned.
+--vcf: 40k variants scanned.
+--vcf: 41k variants scanned.
+--vcf: 42k variants scanned.
+--vcf: 43k variants scanned.
+--vcf: 44k variants scanned.
+--vcf: 45k variants scanned.
+--vcf: 46k variants scanned.
+--vcf: 47k variants scanned.
+--vcf: 48k variants scanned.
+--vcf: 49k variants scanned.
+--vcf: 50k variants scanned.
+--vcf: 51k variants scanned.
+--vcf: 52k variants scanned.
+--vcf: 53k variants scanned.
+--vcf: 54k variants scanned.
+--vcf: 55k variants scanned.
+--vcf: 56k variants scanned.
+--vcf: 57k variants scanned.
+--vcf: 58k variants scanned.
+--vcf: 59k variants scanned.
+--vcf: 60k variants scanned.
+--vcf: 61k variants scanned.
+--vcf: 62k variants scanned.
+--vcf: 63k variants scanned.
+--vcf: 64k variants scanned.
+--vcf: 65k variants scanned.
+--vcf: 66k variants scanned.
+--vcf: 67k variants scanned.
+--vcf: 68k variants scanned.
+--vcf: 69k variants scanned.
+--vcf: 70k variants scanned.
+--vcf: 71k variants scanned.
+--vcf: 72k variants scanned.
+--vcf: 73k variants scanned.
+--vcf: 74k variants scanned.
+--vcf: 75k variants scanned.
+--vcf: 76k variants scanned.
+--vcf: 77k variants scanned.
+--vcf: 78k variants scanned.
+--vcf: 79k variants scanned.
+--vcf: 80k variants scanned.
+--vcf: 81k variants scanned.
+--vcf: 82k variants scanned.
+--vcf: 83k variants scanned.
+--vcf: 84k variants scanned.
+--vcf: 85k variants scanned.
+--vcf: 86k variants scanned.
+--vcf: 87k variants scanned.
+--vcf: 88k variants scanned.
+--vcf: 89k variants scanned.
+--vcf: 90k variants scanned.
+--vcf: 91k variants scanned.
+--vcf: 92k variants scanned.
+--vcf: 93k variants scanned.
+--vcf: 94k variants scanned.
+--vcf: 95k variants scanned.
+--vcf: 96k variants scanned.
+--vcf: 97k variants scanned.
+--vcf: 98k variants scanned.
+--vcf: 99k variants scanned.
+--vcf: 100k variants scanned.
+--vcf: 101k variants scanned.
+--vcf: 102k variants scanned.
+--vcf: 103k variants scanned.
+--vcf: 104k variants scanned.
+--vcf: 105k variants scanned.
+--vcf: 106k variants scanned.
+--vcf: 107k variants scanned.
+--vcf: 108k variants scanned.
+--vcf: 109k variants scanned.
+--vcf: 110k variants scanned.
+--vcf: 111k variants scanned.
+--vcf: 112k variants scanned.
+--vcf: 113k variants scanned.
+--vcf: 114k variants scanned.
+--vcf: 115k variants scanned.
+--vcf: 116k variants scanned.
+--vcf: 117k variants scanned.
+--vcf: 118k variants scanned.
+--vcf: 119k variants scanned.
+--vcf: 120k variants scanned.
+--vcf: 121k variants scanned.
+--vcf: 122k variants scanned.
+--vcf: 123k variants scanned.
+--vcf: 124k variants scanned.
+--vcf: 125k variants scanned.
+--vcf: 126k variants scanned.
+--vcf: 127k variants scanned.
+--vcf: 128k variants scanned.
+--vcf: 129k variants scanned.
+--vcf: 130k variants scanned.
+--vcf: 131k variants scanned.
+--vcf: 132k variants scanned.
+--vcf: 133k variants scanned.
+--vcf: 134k variants scanned.
+--vcf: 135k variants scanned.
+--vcf: 136k variants scanned.
+--vcf: 137k variants scanned.
+--vcf: 138k variants scanned.
+--vcf: 139k variants scanned.
+--vcf: 140k variants scanned.
+--vcf: 141k variants scanned.
+--vcf: 142k variants scanned.
+--vcf: 143k variants scanned.
+--vcf: 144k variants scanned.
+--vcf: 145k variants scanned.
+--vcf: 146k variants scanned.
+--vcf: 147k variants scanned.
+--vcf: 148k variants scanned.
+--vcf: 149k variants scanned.
+--vcf: 150k variants scanned.
+--vcf: 151k variants scanned.
+--vcf: 152k variants scanned.
+--vcf: 153k variants scanned.
+--vcf: 154k variants scanned.
+--vcf: 155k variants scanned.
+--vcf: 156k variants scanned.
+--vcf: 157k variants scanned.
+--vcf: 158k variants scanned.
+--vcf: 159k variants scanned.
+--vcf: 160k variants scanned.
+--vcf: 161k variants scanned.
+--vcf: 162k variants scanned.
+--vcf: 163k variants scanned.
+--vcf: 164k variants scanned.
+--vcf: 165k variants scanned.
+--vcf: 166k variants scanned.
+--vcf: 167k variants scanned.
+--vcf: 168k variants scanned.
+--vcf: 169k variants scanned.
+--vcf: 170k variants scanned.
+--vcf: 171k variants scanned.
+--vcf: 172k variants scanned.
+--vcf: 173k variants scanned.
+--vcf: 174k variants scanned.
+--vcf: 175k variants scanned.
+--vcf: 176k variants scanned.
+--vcf: 177k variants scanned.
+--vcf: 178k variants scanned.
+--vcf: 179k variants scanned.
+--vcf: 180k variants scanned.
+--vcf: 181k variants scanned.
+--vcf: 182k variants scanned.
+--vcf: 183k variants scanned.
+--vcf: 184k variants scanned.
+--vcf: 185k variants scanned.
+--vcf: 186k variants scanned.
+--vcf: 187k variants scanned.
+--vcf: 188k variants scanned.
+--vcf: 189k variants scanned.
+--vcf: 190k variants scanned.
+--vcf: 191k variants scanned.
+--vcf: 192k variants scanned.
+--vcf: 193k variants scanned.
+--vcf: 194k variants scanned.
+--vcf: 195k variants scanned.
+--vcf: 196k variants scanned.
+--vcf: 197k variants scanned.
+--vcf: 198k variants scanned.
+--vcf: 199k variants scanned.
+--vcf: 200k variants scanned.
+--vcf: 201k variants scanned.
+--vcf: 202k variants scanned.
+--vcf: 203k variants scanned.
+--vcf: 204k variants scanned.
+--vcf: 205k variants scanned.
+--vcf: 206k variants scanned.
+--vcf: 207k variants scanned.
+--vcf: 208k variants scanned.
+--vcf: 209k variants scanned.
+--vcf: 210k variants scanned.
+--vcf: 211k variants scanned.
+--vcf: 212k variants scanned.
+--vcf: 213k variants scanned.
+--vcf: 214k variants scanned.
+--vcf: 215k variants scanned.
+--vcf: 216k variants scanned.
+--vcf: 217k variants scanned.
+--vcf: 218k variants scanned.
+--vcf: 219k variants scanned.
+--vcf: 220k variants scanned.
+--vcf: 221k variants scanned.
+--vcf: 222k variants scanned.
+--vcf: 223k variants scanned.
+--vcf: 224k variants scanned.
+--vcf: 225k variants scanned.
+--vcf: 226k variants scanned.
+--vcf: 227k variants scanned.
+--vcf: 228k variants scanned.
+--vcf: 229k variants scanned.
+--vcf: 230k variants scanned.
+--vcf: 231k variants scanned.
+--vcf: 232k variants scanned.
+--vcf: 233k variants scanned.
+--vcf: 234k variants scanned.
+--vcf: 235k variants scanned.
+--vcf: 236k variants scanned.
+--vcf: 237k variants scanned.
+--vcf: 238k variants scanned.
+--vcf: 239k variants scanned.
+--vcf: 240k variants scanned.
+--vcf: 241k variants scanned.
+--vcf: 242k variants scanned.
+--vcf: 243k variants scanned.
+--vcf: 244k variants scanned.
+--vcf: 245k variants scanned.
+--vcf: 246k variants scanned.
+--vcf: 247k variants scanned.
+--vcf: 248k variants scanned.
+--vcf: 249k variants scanned.
+--vcf: 250k variants scanned.
+--vcf: 251k variants scanned.
+--vcf: 252k variants scanned.
+--vcf: 253k variants scanned.
+--vcf: 254k variants scanned.
+--vcf: 255k variants scanned.
+--vcf: 256k variants scanned.
+--vcf: 257k variants scanned.
+--vcf: 258k variants scanned.
+--vcf: 259k variants scanned.
+--vcf: 260k variants scanned.
+--vcf: 261k variants scanned.
+--vcf: 262k variants scanned.
+--vcf: 263k variants scanned.
+--vcf: 264k variants scanned.
+--vcf: 265k variants scanned.
+--vcf: 266k variants scanned.
+--vcf: 267k variants scanned.
+--vcf: 268k variants scanned.
+--vcf: 269k variants scanned.
+--vcf: 270k variants scanned.
+--vcf: 271k variants scanned.
+--vcf: 272k variants scanned.
+--vcf: 273k variants scanned.
+--vcf: 274k variants scanned.
+--vcf: 275k variants scanned.
+--vcf: 276k variants scanned.
+--vcf: 277k variants scanned.
+--vcf: 278k variants scanned.
+--vcf: 279k variants scanned.
+--vcf: 280k variants scanned.
+--vcf: 281k variants scanned.
+--vcf: 282k variants scanned.
+--vcf: 283k variants scanned.
+--vcf: 284k variants scanned.
+--vcf: 285k variants scanned.
+--vcf: 286k variants scanned.
+--vcf: 287k variants scanned.
+--vcf: 288k variants scanned.
+--vcf: 289k variants scanned.
+--vcf: 290k variants scanned.
+--vcf: 291k variants scanned.
+--vcf: 292k variants scanned.
+--vcf: 293k variants scanned.
+--vcf: 294k variants scanned.
+--vcf: 295k variants scanned.
+--vcf: 296k variants scanned.
+--vcf: 297k variants scanned.
+--vcf: 298k variants scanned.
+--vcf: 299k variants scanned.
+--vcf: 300k variants scanned.
+--vcf: 301k variants scanned.
+--vcf: 302k variants scanned.
+--vcf: 303k variants scanned.
+--vcf: 304k variants scanned.
+--vcf: 305k variants scanned.
+--vcf: 306k variants scanned.
+--vcf: 307k variants scanned.
+--vcf: 308k variants scanned.
+--vcf: 309k variants scanned.
+--vcf: 310k variants scanned.
+--vcf: 311k variants scanned.
+--vcf: 312k variants scanned.
+--vcf: 313k variants scanned.
+--vcf: 314k variants scanned.
+--vcf: 315k variants scanned.
+--vcf: 316k variants scanned.
+--vcf: 317k variants scanned.
+--vcf: 318k variants scanned.
+--vcf: 319k variants scanned.
+--vcf: 320k variants scanned.
+--vcf: 321k variants scanned.
+--vcf: 322k variants scanned.
+--vcf: 323k variants scanned.
+--vcf: 324k variants scanned.
+--vcf: 325k variants scanned.
+--vcf: 326k variants scanned.
+--vcf: 327k variants scanned.
+--vcf: 328k variants scanned.
+--vcf: 329k variants scanned.
+--vcf: 330k variants scanned.
+--vcf: 331k variants scanned.
+--vcf: 332k variants scanned.
+--vcf: 333k variants scanned.
+--vcf: 334k variants scanned.
+--vcf: 335k variants scanned.
+--vcf: 336k variants scanned.
+--vcf: 337k variants scanned.
+--vcf: 338k variants scanned.
+--vcf: 339k variants scanned.
+--vcf: 340k variants scanned.
+--vcf: 341k variants scanned.
+--vcf: 342k variants scanned.
+--vcf: 343k variants scanned.
+--vcf: 344k variants scanned.
+--vcf: 345k variants scanned.
+--vcf: 346k variants scanned.
+--vcf: 347k variants scanned.
+--vcf: 348k variants scanned.
+--vcf: 349k variants scanned.
+--vcf: 350k variants scanned.
+--vcf: 351k variants scanned.
+--vcf: 352k variants scanned.
+--vcf: 353k variants scanned.
+--vcf: 354k variants scanned.
+--vcf: 355k variants scanned.
+--vcf: 356k variants scanned.
+--vcf: 357k variants scanned.
+--vcf: 358k variants scanned.
+--vcf: 359k variants scanned.
+--vcf: 360k variants scanned.
+--vcf: 361k variants scanned.
+--vcf: 362k variants scanned.
+--vcf: 363k variants scanned.
+--vcf: 364k variants scanned.
+--vcf: 365k variants scanned.
+--vcf: 366k variants scanned.
+--vcf: 367k variants scanned.
+--vcf: 368k variants scanned.
+--vcf: 369k variants scanned.
+--vcf: 370k variants scanned.
+--vcf: 371k variants scanned.
+--vcf: 372k variants scanned.
+--vcf: 373k variants scanned.
+--vcf: 374k variants scanned.
+--vcf: 375k variants scanned.
+--vcf: 376k variants scanned.
+--vcf: 377k variants scanned.
+--vcf: 378k variants scanned.
+--vcf: 379k variants scanned.
+--vcf: 380k variants scanned.
+--vcf: 381k variants scanned.
+--vcf: 382k variants scanned.
+--vcf: 383k variants scanned.
+--vcf: 384k variants scanned.
+--vcf: 385k variants scanned.
+--vcf: 386k variants scanned.
+--vcf: 387k variants scanned.
+--vcf: 388k variants scanned.
+--vcf: 389k variants scanned.
+--vcf: 390k variants scanned.
+--vcf: 391k variants scanned.
+--vcf: 392k variants scanned.
+--vcf: 393k variants scanned.
+--vcf: 394k variants scanned.
+--vcf: 395k variants scanned.
+--vcf: 396k variants scanned.
+--vcf: 397k variants scanned.
+--vcf: 398k variants scanned.
+--vcf: 399k variants scanned.
+--vcf: 400k variants scanned.
+--vcf: 401k variants scanned.
+--vcf: 402k variants scanned.
+--vcf: 403k variants scanned.
+--vcf: 404k variants scanned.
+--vcf: 405k variants scanned.
+--vcf: 406k variants scanned.
+--vcf: 407k variants scanned.
+--vcf: 408k variants scanned.
+--vcf: 409k variants scanned.
+--vcf: 410k variants scanned.
+--vcf: 411k variants scanned.
+--vcf: 412k variants scanned.
+--vcf: 413k variants scanned.
+--vcf: 414k variants scanned.
+--vcf: 415k variants scanned.
+--vcf: 416k variants scanned.
+--vcf: 417k variants scanned.
+--vcf: 418k variants scanned.
+--vcf: 419k variants scanned.
+--vcf: 420k variants scanned.
+--vcf: 421k variants scanned.
+--vcf: 422k variants scanned.
+--vcf: 423k variants scanned.
+--vcf: 424k variants scanned.
+--vcf: 425k variants scanned.
+--vcf: 426k variants scanned.
+--vcf: 427k variants scanned.
+--vcf: 428k variants scanned.
+--vcf: 429k variants scanned.
+--vcf: 430k variants scanned.
+--vcf: 431k variants scanned.
+--vcf: 432k variants scanned.
+--vcf: 433k variants scanned.
+--vcf: 434k variants scanned.
+--vcf: 435k variants scanned.
+--vcf: 436k variants scanned.
+--vcf: 437k variants scanned.
+--vcf: 438k variants scanned.
+--vcf: 439k variants scanned.
+--vcf: 440k variants scanned.
+--vcf: 441k variants scanned.
+--vcf: 442k variants scanned.
+--vcf: 443k variants scanned.
+--vcf: 444k variants scanned.
+--vcf: 445k variants scanned.
+--vcf: 446k variants scanned.
+--vcf: 447k variants scanned.
+--vcf: 448k variants scanned.
+--vcf: 449k variants scanned.
+--vcf: 450k variants scanned.
+--vcf: 451k variants scanned.
+--vcf: 452k variants scanned.
+--vcf: 453k variants scanned.
+--vcf: 454k variants scanned.
+--vcf: 455k variants scanned.
+--vcf: 456k variants scanned.
+--vcf: 457k variants scanned.
+--vcf: 458k variants scanned.
+--vcf: 459k variants scanned.
+--vcf: 460k variants scanned.
+--vcf: 461k variants scanned.
+--vcf: 462k variants scanned.
+--vcf: 463k variants scanned.
+--vcf: 464k variants scanned.
+--vcf: 465k variants scanned.
+--vcf: 466k variants scanned.
+--vcf: 467k variants scanned.
+--vcf: 468k variants scanned.
+--vcf: 469k variants scanned.
+--vcf: 470k variants scanned.
+--vcf: 471k variants scanned.
+--vcf: 472k variants scanned.
+--vcf: 473k variants scanned.
+--vcf: 474k variants scanned.
+--vcf: 475k variants scanned.
+--vcf: 476k variants scanned.
+--vcf: 477k variants scanned.
+--vcf: 478k variants scanned.
+--vcf: 479k variants scanned.
+--vcf: 480k variants scanned.
+--vcf: 481k variants scanned.
+--vcf: 482k variants scanned.
+--vcf: 483k variants scanned.
+--vcf: 484k variants scanned.
+--vcf: 485k variants scanned.
+--vcf: 486k variants scanned.
+--vcf: 487k variants scanned.
+--vcf: 488k variants scanned.
+--vcf: 489k variants scanned.
+--vcf: 490k variants scanned.
+--vcf: 491k variants scanned.
+--vcf: 492k variants scanned.
+--vcf: 493k variants scanned.
+--vcf: 494k variants scanned.
+--vcf: 495k variants scanned.
+--vcf: 496k variants scanned.
+--vcf: 497k variants scanned.
+--vcf: 498k variants scanned.
+--vcf: 499k variants scanned.
+--vcf: 500k variants scanned.
+--vcf: 501k variants scanned.
+--vcf: 502k variants scanned.
+--vcf: 503k variants scanned.
+--vcf: 504k variants scanned.
+--vcf: 505k variants scanned.
+--vcf: 506k variants scanned.
+--vcf: 507k variants scanned.
+--vcf: 508k variants scanned.
+--vcf: 509k variants scanned.
+--vcf: 510k variants scanned.
+--vcf: 511k variants scanned.
+--vcf: 512k variants scanned.
+--vcf: 513k variants scanned.
+--vcf: 514k variants scanned.
+--vcf: 515k variants scanned.
+--vcf: 516k variants scanned.
+--vcf: 517k variants scanned.
+--vcf: 518k variants scanned.
+--vcf: 519k variants scanned.
+--vcf: 520k variants scanned.
+--vcf: 521k variants scanned.
+--vcf: 522k variants scanned.
+--vcf: 523k variants scanned.
+--vcf: 524k variants scanned.
+--vcf: 525k variants scanned.
+--vcf: 526k variants scanned.
+--vcf: 527k variants scanned.
+--vcf: 528k variants scanned.
+--vcf: 529k variants scanned.
+--vcf: 530k variants scanned.
+--vcf: 531k variants scanned.
+--vcf: 532k variants scanned.
+--vcf: 533k variants scanned.
+--vcf: 534k variants scanned.
+--vcf: 535k variants scanned.
+--vcf: 536k variants scanned.
+--vcf: 537k variants scanned.
+--vcf: 538k variants scanned.
+--vcf: 539k variants scanned.
+--vcf: 540k variants scanned.
+--vcf: 541k variants scanned.
+--vcf: 542k variants scanned.
+--vcf: 543k variants scanned.
+--vcf: 544k variants scanned.
+--vcf: 545k variants scanned.
+--vcf: 546k variants scanned.
+--vcf: 547k variants scanned.
+--vcf: 548k variants scanned.
+--vcf: 549k variants scanned.
+--vcf: 550k variants scanned.
+--vcf: 551k variants scanned.
+--vcf: 552k variants scanned.
+--vcf: 553k variants scanned.
+--vcf: 554k variants scanned.
+--vcf: 555k variants scanned.
+--vcf: 556k variants scanned.
+--vcf: 557k variants scanned.
+--vcf: 558k variants scanned.
+--vcf: 559k variants scanned.
+--vcf: 560k variants scanned.
+--vcf: 561k variants scanned.
+--vcf: 562k variants scanned.
+--vcf: 563k variants scanned.
+--vcf: 564k variants scanned.
+--vcf: 565k variants scanned.
+--vcf: 566k variants scanned.
+--vcf: 567k variants scanned.
+--vcf: 568k variants scanned.
+--vcf: 569k variants scanned.
+--vcf: 570k variants scanned.
+--vcf: 571k variants scanned.
+--vcf: 572k variants scanned.
+--vcf: 573k variants scanned.
+--vcf: 574k variants scanned.
+--vcf: 575k variants scanned.
+--vcf: 576k variants scanned.
+--vcf: 577k variants scanned.
+--vcf: 578k variants scanned.
+--vcf: 579k variants scanned.
+--vcf: 580k variants scanned.
+--vcf: 581k variants scanned.
+--vcf: 582k variants scanned.
+--vcf: 583k variants scanned.
+--vcf: 584k variants scanned.
+--vcf: 585k variants scanned.
+--vcf: 586k variants scanned.
+--vcf: 587k variants scanned.
+--vcf: 588k variants scanned.
+--vcf: 589k variants scanned.
+--vcf: 590k variants scanned.
+--vcf: 591k variants scanned.
+--vcf: 592k variants scanned.
+--vcf: 593k variants scanned.
+--vcf: 594k variants scanned.
+--vcf: 595k variants scanned.
+--vcf: 596k variants scanned.
+--vcf: 597k variants scanned.
+--vcf: 598k variants scanned.
+--vcf: 599k variants scanned.
+--vcf: 600k variants scanned.
+--vcf: 601k variants scanned.
+--vcf: 602k variants scanned.
+--vcf: 603k variants scanned.
+--vcf: 604k variants scanned.
+--vcf: 605k variants scanned.
+--vcf: 606k variants scanned.
+--vcf: 607k variants scanned.
+--vcf: 608k variants scanned.
+--vcf: 609k variants scanned.
+--vcf: 610k variants scanned.
+--vcf: 611k variants scanned.
+--vcf: 612k variants scanned.
+--vcf: 613k variants scanned.
+--vcf: 614k variants scanned.
+--vcf: 615k variants scanned.
+--vcf: 616k variants scanned.
+--vcf: 617k variants scanned.
+--vcf: 618k variants scanned.
+--vcf: 619k variants scanned.
+--vcf: 620k variants scanned.
+--vcf: 621k variants scanned.
+--vcf: 622k variants scanned.
+--vcf: 623k variants scanned.
+--vcf: 624k variants scanned.
+--vcf: 625k variants scanned.
+--vcf: 626k variants scanned.
+--vcf: 627k variants scanned.
+--vcf: 628k variants scanned.
+--vcf: 629k variants scanned.
+--vcf: 630k variants scanned.
+--vcf: 631k variants scanned.
+--vcf: 632k variants scanned.
+--vcf: 633k variants scanned.
+--vcf: 634k variants scanned.
+--vcf: 635k variants scanned.
+--vcf: 636k variants scanned.
+--vcf: 637k variants scanned.
+--vcf: 638k variants scanned.
+--vcf: 639k variants scanned.
+--vcf: 640k variants scanned.
+--vcf: 641k variants scanned.
+--vcf: 642k variants scanned.
+--vcf: 643k variants scanned.
+--vcf: 644k variants scanned.
+--vcf: 645k variants scanned.
+--vcf: 646k variants scanned.
+--vcf: 647k variants scanned.
+--vcf: 648k variants scanned.
+--vcf: 649k variants scanned.
+--vcf: 650k variants scanned.
+--vcf: 651k variants scanned.
+--vcf: 652k variants scanned.
+--vcf: 653k variants scanned.
+--vcf: 654k variants scanned.
+--vcf: 655k variants scanned.
+--vcf: 656k variants scanned.
+--vcf: 657k variants scanned.
+--vcf: 658k variants scanned.
+--vcf: 659k variants scanned.
+--vcf: 660k variants scanned.
+--vcf: 661k variants scanned.
+--vcf: 662k variants scanned.
+--vcf: 663k variants scanned.
+--vcf: 664k variants scanned.
+--vcf: 665k variants scanned.
+--vcf: 666k variants scanned.
+--vcf: 667k variants scanned.
+--vcf: 668k variants scanned.
+--vcf: 669k variants scanned.
+--vcf: 670k variants scanned.
+--vcf: 671k variants scanned.
+--vcf: 672k variants scanned.
+--vcf: 673k variants scanned.
+--vcf: 674k variants scanned.
+--vcf: 675k variants scanned.
+--vcf: 676k variants scanned.
+--vcf: 677k variants scanned.
+--vcf: 678k variants scanned.
+--vcf: 679k variants scanned.
+--vcf: 680k variants scanned.
+--vcf: 681k variants scanned.
+--vcf: 682k variants scanned.
+--vcf: 683k variants scanned.
+--vcf: 684k variants scanned.
+--vcf: 685k variants scanned.
+--vcf: 686k variants scanned.
+--vcf: 687k variants scanned.
+--vcf: 688k variants scanned.
+--vcf: 689k variants scanned.
+--vcf: 690k variants scanned.
+--vcf: 691k variants scanned.
+--vcf: 692k variants scanned.
+--vcf: 693k variants scanned.
+--vcf: 694k variants scanned.
+--vcf: 695k variants scanned.
+--vcf: 696k variants scanned.
+--vcf: 697k variants scanned.
+--vcf: 698k variants scanned.
+--vcf: 699k variants scanned.
+--vcf: 700k variants scanned.
+--vcf: 701k variants scanned.
+--vcf: 702k variants scanned.
+--vcf: 703k variants scanned.
+--vcf: 704k variants scanned.
+--vcf: 705k variants scanned.
+--vcf: 706k variants scanned.
+--vcf: 707k variants scanned.
+--vcf: 708k variants scanned.
+--vcf: 709k variants scanned.
+--vcf: 710k variants scanned.
+--vcf: 711k variants scanned.
+--vcf: 712k variants scanned.
+--vcf: 713k variants scanned.
+--vcf: 714k variants scanned.
+--vcf: 715k variants scanned.
+--vcf: 716k variants scanned.
+--vcf: 717k variants scanned.
+--vcf: 718k variants scanned.
+--vcf: 719k variants scanned.
+--vcf: 720k variants scanned.
+--vcf: 721k variants scanned.
+--vcf: 722k variants scanned.
+--vcf: 723k variants scanned.
+--vcf: 724k variants scanned.
+--vcf: 725k variants scanned.
+--vcf: 726k variants scanned.
+--vcf: 727k variants scanned.
+--vcf: 728k variants scanned.
+--vcf: 729k variants scanned.
+--vcf: 730k variants scanned.
+--vcf: 731k variants scanned.
+--vcf: 732k variants scanned.
+--vcf: 733k variants scanned.
+--vcf: 734k variants scanned.
+--vcf: 735k variants scanned.
+--vcf: 736k variants scanned.
+--vcf: 737k variants scanned.
+--vcf: 738k variants scanned.
+--vcf: 739k variants scanned.
+--vcf: 740k variants scanned.
+--vcf: 741k variants scanned.
+--vcf: 742k variants scanned.
+--vcf: 743k variants scanned.
+--vcf: 744k variants scanned.
+--vcf: 745k variants scanned.
+--vcf: 746k variants scanned.
+--vcf: 747k variants scanned.
+--vcf: 748k variants scanned.
+--vcf: 749k variants scanned.
+--vcf: 750k variants scanned.
+--vcf: 751k variants scanned.
+--vcf: 752k variants scanned.
+--vcf: 753k variants scanned.
+--vcf: 754k variants scanned.
+--vcf: 755k variants scanned.
+--vcf: 756k variants scanned.
+--vcf: 757k variants scanned.
+--vcf: 758k variants scanned.
+--vcf: 759k variants scanned.
+--vcf: 760k variants scanned.
+--vcf: 761k variants scanned.
+--vcf: 762k variants scanned.
+--vcf: 763k variants scanned.
+--vcf: 764k variants scanned.
+--vcf: 765k variants scanned.
+--vcf: 766k variants scanned.
+--vcf: 767k variants scanned.
+--vcf: 768k variants scanned.
+--vcf: 769k variants scanned.
+--vcf: 770k variants scanned.
+--vcf: 771k variants scanned.
+--vcf: 772k variants scanned.
+--vcf: 773k variants scanned.
+--vcf: 774k variants scanned.
+--vcf: 775k variants scanned.
+--vcf: 776k variants scanned.
+--vcf: 777k variants scanned.
+--vcf: 778k variants scanned.
+--vcf: 779k variants scanned.
+--vcf: 780k variants scanned.
+--vcf: 781k variants scanned.
+--vcf: 782k variants scanned.
+--vcf: 783k variants scanned.
+--vcf: 784k variants scanned.
+--vcf: 785k variants scanned.
+--vcf: 786k variants scanned.
+--vcf: 787k variants scanned.
+--vcf: 788k variants scanned.
+--vcf: 789k variants scanned.
+--vcf: 790k variants scanned.
+--vcf: 791k variants scanned.
+--vcf: 792k variants scanned.
+--vcf: 793k variants scanned.
+--vcf: 794k variants scanned.
+--vcf: 795k variants scanned.
+--vcf: 796k variants scanned.
+--vcf: 797k variants scanned.
+--vcf: 798k variants scanned.
+--vcf: 799k variants scanned.
+--vcf: 800k variants scanned.
+--vcf: 801k variants scanned.
+--vcf: 802k variants scanned.
+--vcf: 803k variants scanned.
+--vcf: 804k variants scanned.
+--vcf: 805k variants scanned.
+--vcf: 806k variants scanned.
+--vcf: 807k variants scanned.
+--vcf: 808k variants scanned.
+--vcf: 809k variants scanned.
+--vcf: 810k variants scanned.
+--vcf: 811k variants scanned.
+--vcf: 812k variants scanned.
+--vcf: 813k variants scanned.
+--vcf: 814k variants scanned.
+--vcf: 815k variants scanned.
+--vcf: 816k variants scanned.
+--vcf: 817k variants scanned.
+--vcf: 818k variants scanned.
+--vcf: 819k variants scanned.
+--vcf: 820k variants scanned.
+--vcf: 821k variants scanned.
+--vcf: 822k variants scanned.
+--vcf: 823k variants scanned.
+--vcf: 824k variants scanned.
+--vcf: 825k variants scanned.
+--vcf: 826k variants scanned.
+--vcf: 827k variants scanned.
+--vcf: 828k variants scanned.
+--vcf: 829k variants scanned.
+--vcf: 830k variants scanned.
+--vcf: 831k variants scanned.
+--vcf: 832k variants scanned.
+--vcf: 833k variants scanned.
+--vcf: 834k variants scanned.
+--vcf: 835k variants scanned.
+--vcf: 836k variants scanned.
+--vcf: 837k variants scanned.
+--vcf: 838k variants scanned.
+--vcf: 839k variants scanned.
+--vcf: 840k variants scanned.
+--vcf: 841k variants scanned.
+--vcf: 842k variants scanned.
+--vcf: 843k variants scanned.
+--vcf: 844k variants scanned.
+--vcf: 845k variants scanned.
+--vcf: 846k variants scanned.
+--vcf: 847k variants scanned.
+--vcf: 848k variants scanned.
+--vcf: 849k variants scanned.
+--vcf: 850k variants scanned.
+--vcf: 851k variants scanned.
+--vcf: 852k variants scanned.
+--vcf: 853k variants scanned.
+--vcf: 854k variants scanned.
+--vcf: 855k variants scanned.
+--vcf: 856k variants scanned.
+--vcf: 857k variants scanned.
+--vcf: 858k variants scanned.
+--vcf: 859k variants scanned.
+--vcf: 860k variants scanned.
+--vcf: 861k variants scanned.
+--vcf: 862k variants scanned.
+--vcf: 863k variants scanned.
+--vcf: 864k variants scanned.
+--vcf: 865k variants scanned.
+--vcf: 866k variants scanned.
+--vcf: 867k variants scanned.
+--vcf: 868k variants scanned.
+--vcf: 869k variants scanned.
+--vcf: 870k variants scanned.
+--vcf: 871k variants scanned.
+--vcf: 872k variants scanned.
+--vcf: 873k variants scanned.
+--vcf: 874k variants scanned.
+--vcf: 875k variants scanned.
+--vcf: 876k variants scanned.
+--vcf: 877k variants scanned.
+--vcf: 878k variants scanned.
+--vcf: 879k variants scanned.
+--vcf: 880k variants scanned.
+--vcf: 881k variants scanned.
+--vcf: 882k variants scanned.
+--vcf: 883k variants scanned.
+--vcf: 884k variants scanned.
+--vcf: 885k variants scanned.
+--vcf: 886k variants scanned.
+--vcf: 887k variants scanned.
+--vcf: 888k variants scanned.
+--vcf: 889k variants scanned.
+--vcf: 890k variants scanned.
+--vcf: 891k variants scanned.
+--vcf: 892k variants scanned.
+--vcf: 893k variants scanned.
+--vcf: 894k variants scanned.
+--vcf: 895k variants scanned.
+--vcf: 896k variants scanned.
+--vcf: 897k variants scanned.
+--vcf: 898k variants scanned.
+--vcf: 899k variants scanned.
+--vcf: 900k variants scanned.
+--vcf: 901k variants scanned.
+--vcf: 902k variants scanned.
+--vcf: 903k variants scanned.
+--vcf: 904k variants scanned.
+--vcf: 905k variants scanned.
+--vcf: 906k variants scanned.
+--vcf: 907k variants scanned.
+--vcf: 908k variants scanned.
+--vcf: 909k variants scanned.
+--vcf: 910k variants scanned.
+--vcf: 911k variants scanned.
+--vcf: 912k variants scanned.
+--vcf: 913k variants scanned.
+--vcf: 914k variants scanned.
+--vcf: 915k variants scanned.
+--vcf: 916k variants scanned.
+--vcf: 917k variants scanned.
+--vcf: 918k variants scanned.
+--vcf: 919k variants scanned.
+--vcf: 920k variants scanned.
+--vcf: 921k variants scanned.
+--vcf: 922k variants scanned.
+--vcf: 923k variants scanned.
+--vcf: 924k variants scanned.
+--vcf: 925k variants scanned.
+--vcf: 926k variants scanned.
+--vcf: 927k variants scanned.
+--vcf: 928k variants scanned.
+--vcf: 929k variants scanned.
+--vcf: 930k variants scanned.
+--vcf: 931k variants scanned.
+--vcf: 932k variants scanned.
+--vcf: 933k variants scanned.
+--vcf: 934k variants scanned.
+--vcf: 935k variants scanned.
+--vcf: 936k variants scanned.
+--vcf: 937k variants scanned.
+--vcf: 938k variants scanned.
+--vcf: 939k variants scanned.
+--vcf: 940k variants scanned.
+--vcf: 941k variants scanned.
+--vcf: 942k variants scanned.
+--vcf: 943k variants scanned.
+--vcf: 944k variants scanned.
+--vcf: 945k variants scanned.
+--vcf: 946k variants scanned.
+--vcf: 947k variants scanned.
+--vcf: 948k variants scanned.
+--vcf: 949k variants scanned.
+--vcf: 950k variants scanned.
+--vcf: 951k variants scanned.
+--vcf: 952k variants scanned.
+--vcf: 953k variants scanned.
+--vcf: 954k variants scanned.
+--vcf: 955k variants scanned.
+--vcf: 956k variants scanned.
+--vcf: 957k variants scanned.
+--vcf: 958k variants scanned.
+--vcf: 959k variants scanned.
+--vcf: 960k variants scanned.
+--vcf: 961k variants scanned.
+--vcf: 962k variants scanned.
+--vcf: 963k variants scanned.
+--vcf: 964k variants scanned.
+--vcf: 965k variants scanned.
+--vcf: 966k variants scanned.
+--vcf: 967k variants scanned.
+--vcf: 968k variants scanned.
+--vcf: 969k variants scanned.
+--vcf: 970k variants scanned.
+--vcf: 971k variants scanned.
+--vcf: 972k variants scanned.
+--vcf: 973k variants scanned.
+--vcf: 974k variants scanned.
+--vcf: 975k variants scanned.
+--vcf: 976k variants scanned.
+--vcf: 977k variants scanned.
+--vcf: 978k variants scanned.
+--vcf: 979k variants scanned.
+--vcf: 980k variants scanned.
+--vcf: 981k variants scanned.
+--vcf: 982k variants scanned.
+--vcf: 983k variants scanned.
+--vcf: 984k variants scanned.
+--vcf: 985k variants scanned.
+--vcf: 986k variants scanned.
+--vcf: 987k variants scanned.
+--vcf: 988k variants scanned.
+--vcf: 989k variants scanned.
+--vcf: 990k variants scanned.
+--vcf: 991k variants scanned.
+--vcf: 992k variants scanned.
+--vcf: 993k variants scanned.
+--vcf: 994k variants scanned.
+--vcf: 995k variants scanned.
+--vcf: 996k variants scanned.
+--vcf: 997k variants scanned.
+--vcf: 998k variants scanned.
+--vcf: 999k variants scanned.
+--vcf: 1000k variants scanned.
+--vcf: 1001k variants scanned.
+--vcf: 1002k variants scanned.
+--vcf: 1003k variants scanned.
+--vcf: 1004k variants scanned.
+--vcf: 1005k variants scanned.
+--vcf: 1006k variants scanned.
+--vcf: 1007k variants scanned.
+--vcf: 1008k variants scanned.
+--vcf: 1009k variants scanned.
+--vcf: 1010k variants scanned.
+--vcf: 1011k variants scanned.
+--vcf: 1012k variants scanned.
+--vcf: 1013k variants scanned.
+--vcf: 1014k variants scanned.
+--vcf: 1015k variants scanned.
+--vcf: 1016k variants scanned.
+--vcf: 1017k variants scanned.
+--vcf: 1018k variants scanned.
+--vcf: 1019k variants scanned.
+--vcf: 1020k variants scanned.
+--vcf: 1021k variants scanned.
+--vcf: 1022k variants scanned.
+--vcf: 1023k variants scanned.
+--vcf: 1024k variants scanned.
+--vcf: 1025k variants scanned.
+--vcf: 1026k variants scanned.
+--vcf: 1027k variants scanned.
+--vcf: 1028k variants scanned.
+--vcf: 1029k variants scanned.
+--vcf: 1030k variants scanned.
+--vcf: 1031k variants scanned.
+--vcf: 1032k variants scanned.
+--vcf: 1033k variants scanned.
+--vcf: 1034k variants scanned.
+--vcf: 1035k variants scanned.
+--vcf: 1036k variants scanned.
+--vcf: 1037k variants scanned.
+--vcf: 1038k variants scanned.
+--vcf: 1039k variants scanned.
+--vcf: 1040k variants scanned.
+--vcf: 1041k variants scanned.
+--vcf: 1042k variants scanned.
+--vcf: 1043k variants scanned.
+--vcf: 1044k variants scanned.
+--vcf: 1045k variants scanned.
+--vcf: 1046k variants scanned.
+--vcf: 1047k variants scanned.
+--vcf: 1048k variants scanned.
+--vcf: 1049k variants scanned.
+--vcf: 1050k variants scanned.
+--vcf: 1051k variants scanned.
+--vcf: 1052k variants scanned.
+--vcf: 1053k variants scanned.
+--vcf: 1054k variants scanned.
+--vcf: 1055k variants scanned.
+--vcf: 1056k variants scanned.
+--vcf: 1057k variants scanned.
+--vcf: 1058k variants scanned.
+--vcf: 1059k variants scanned.
+--vcf: 1060k variants scanned.
+--vcf: 1061k variants scanned.
+--vcf: 1062k variants scanned.
+--vcf: 1063k variants scanned.
+--vcf: 1064k variants scanned.
+--vcf: 1065k variants scanned.
+--vcf: 1066k variants scanned.
+--vcf: 1067k variants scanned.
+--vcf: 1068k variants scanned.
+--vcf: 1069k variants scanned.
+--vcf: 1070k variants scanned.
+--vcf: 1071k variants scanned.
+--vcf: 1072k variants scanned.
+--vcf: 1073k variants scanned.
+--vcf: 1074k variants scanned.
+--vcf: 1075k variants scanned.
+--vcf: 1076k variants scanned.
+--vcf: 1077k variants scanned.
+--vcf: 1078k variants scanned.
+--vcf: 1079k variants scanned.
+--vcf: 1080k variants scanned.
+--vcf: 1081k variants scanned.
+--vcf: 1082k variants scanned.
+--vcf: 1083k variants scanned.
+--vcf: 1084k variants scanned.
+--vcf: 1085k variants scanned.
+--vcf: 1086k variants scanned.
+--vcf: 1087k variants scanned.
+--vcf: 1088k variants scanned.
+--vcf: 1089k variants scanned.
+--vcf: 1090k variants scanned.
+--vcf: 1091k variants scanned.
+--vcf: 1092k variants scanned.
+--vcf: 1093k variants scanned.
+--vcf: 1094k variants scanned.
+--vcf: 1095k variants scanned.
+--vcf: 1096k variants scanned.
+--vcf: 1097k variants scanned.
+--vcf: 1098k variants scanned.
+--vcf: 1099k variants scanned.
+--vcf: 1100k variants scanned.
+--vcf: 1101k variants scanned.
+--vcf: 1102k variants scanned.
+--vcf: 1103k variants scanned.
+--vcf: 1104k variants scanned.
+--vcf: 1105k variants scanned.
+--vcf: 1106k variants scanned.
+--vcf: 1107k variants scanned.
+--vcf: 1108k variants scanned.
+--vcf: 1109k variants scanned.
+--vcf: 1110k variants scanned.
+--vcf: 1111k variants scanned.
+--vcf: 1112k variants scanned.
+--vcf: 1113k variants scanned.
+--vcf: 1114k variants scanned.
+--vcf: 1115k variants scanned.
+--vcf: 1116k variants scanned.
+--vcf: 1117k variants scanned.
+--vcf: 1118k variants scanned.
+--vcf: 1119k variants scanned.
+--vcf: 1120k variants scanned.
+--vcf: 1121k variants scanned.
+--vcf: 1122k variants scanned.
+--vcf: 1123k variants scanned.
+--vcf: 1124k variants scanned.
+--vcf: 1125k variants scanned.
+--vcf: 1126k variants scanned.
+--vcf: 1127k variants scanned.
+--vcf: 1128k variants scanned.
+--vcf: 1129k variants scanned.
+--vcf: 1130k variants scanned.
+--vcf: 1131k variants scanned.
+--vcf: 1132k variants scanned.
+--vcf: 1133k variants scanned.
+--vcf: 1134k variants scanned.
+--vcf: 1135k variants scanned.
+--vcf: 1136k variants scanned.
+--vcf: 1137k variants scanned.
+--vcf: 1138k variants scanned.
+--vcf: 1139k variants scanned.
+--vcf: 1140k variants scanned.
+--vcf: 1141k variants scanned.
+--vcf: 1142k variants scanned.
+--vcf: 1143k variants scanned.
+--vcf: 1144k variants scanned.
+--vcf: 1145k variants scanned.
+--vcf: 1146k variants scanned.
+--vcf: 1147k variants scanned.
+--vcf: 1148k variants scanned.
+--vcf: 1149k variants scanned.
+--vcf: 1150k variants scanned.
+--vcf: 1151k variants scanned.
+--vcf: 1152k variants scanned.
+--vcf: 1153k variants scanned.
+--vcf: 1154k variants scanned.
+--vcf: 1155k variants scanned.
+--vcf: 1156k variants scanned.
+--vcf: 1157k variants scanned.
+--vcf: 1158k variants scanned.
+--vcf: 1159k variants scanned.
+--vcf: 1160k variants scanned.
+--vcf: 1161k variants scanned.
+--vcf: 1162k variants scanned.
+--vcf: 1163k variants scanned.
+--vcf: 1164k variants scanned.
+--vcf: 1165k variants scanned.
+--vcf: 1166k variants scanned.
+--vcf: 1167k variants scanned.
+--vcf: 1168k variants scanned.
+--vcf: 1169k variants scanned.
+--vcf: 1170k variants scanned.
+--vcf: 1171k variants scanned.
+--vcf: 1172k variants scanned.
+--vcf: 1173k variants scanned.
+--vcf: 1174k variants scanned.
+--vcf: 1175k variants scanned.
+--vcf: 1176k variants scanned.
+--vcf: 1177k variants scanned.
+--vcf: 1178k variants scanned.
+--vcf: 1179k variants scanned.
+--vcf: 1180k variants scanned.
+--vcf: 1181k variants scanned.
+--vcf: 1182k variants scanned.
+--vcf: 1183k variants scanned.
+--vcf: 1184k variants scanned.
+--vcf: 1185k variants scanned.
+--vcf: 1186k variants scanned.
+--vcf: 1187k variants scanned.
+--vcf: 1188k variants scanned.
+--vcf: 1189k variants scanned.
+--vcf: 1190k variants scanned.
+--vcf: 1191k variants scanned.
+--vcf: 1192k variants scanned.
+--vcf: 1193k variants scanned.
+--vcf: 1194k variants scanned.
+--vcf: 1195k variants scanned.
+--vcf: 1196k variants scanned.
+--vcf: 1197k variants scanned.
+--vcf: 1198k variants scanned.
+--vcf: 1199k variants scanned.
+--vcf: 1200k variants scanned.
+--vcf: 1201k variants scanned.
+--vcf: 1202k variants scanned.
+--vcf: 1203k variants scanned.
+--vcf: 1204k variants scanned.
+--vcf: 1205k variants scanned.
+--vcf: 1206k variants scanned.
+--vcf: 1207k variants scanned.
+--vcf: 1208k variants scanned.
+--vcf: 1209k variants scanned.
+--vcf: 1210k variants scanned.
+--vcf: 1211k variants scanned.
+--vcf: 1212k variants scanned.
+--vcf: 1213k variants scanned.
+--vcf: 1214k variants scanned.
+--vcf: 1215k variants scanned.
+--vcf: 1216k variants scanned.
+--vcf: 1217k variants scanned.
+--vcf: 1218k variants scanned.
+--vcf: 1219k variants scanned.
+--vcf: 1220k variants scanned.
+--vcf: 1221k variants scanned.
+--vcf: 1222k variants scanned.
+--vcf: 1223k variants scanned.
+--vcf: 1224k variants scanned.
+--vcf: 1225k variants scanned.
+--vcf: 1226k variants scanned.
+--vcf: 1227k variants scanned.
+--vcf: 1228k variants scanned.
+--vcf: 1229k variants scanned.
+--vcf: 1230k variants scanned.
+--vcf: 1231k variants scanned.
+--vcf: 1232k variants scanned.
+--vcf: 1233k variants scanned.
+--vcf: 1234k variants scanned.
+--vcf: 1235k variants scanned.
+--vcf: 1236k variants scanned.
+--vcf: 1237k variants scanned.
+--vcf: 1238k variants scanned.
+--vcf: 1239k variants scanned.
+--vcf: 1240k variants scanned.
+--vcf: 1241k variants scanned.
+--vcf: 1242k variants scanned.
+--vcf: 1243k variants scanned.
+--vcf: 1244k variants scanned.
+--vcf: 1245k variants scanned.
+--vcf: 1246k variants scanned.
+--vcf: 1247k variants scanned.
+--vcf: 1248k variants scanned.
+--vcf: 1249k variants scanned.
+--vcf: 1250k variants scanned.
+--vcf: 1251k variants scanned.
+--vcf: 1252k variants scanned.
+--vcf: 1253k variants scanned.
+--vcf: 1254k variants scanned.
+--vcf: 1255k variants scanned.
+--vcf: 1256k variants scanned.
+--vcf: 1257k variants scanned.
+--vcf: 1258k variants scanned.
+--vcf: 1259k variants scanned.
+--vcf: 1260k variants scanned.
+--vcf: 1261k variants scanned.
+--vcf: 1262k variants scanned.
+--vcf: 1263k variants scanned.
+--vcf: 1264k variants scanned.
+--vcf: 1265k variants scanned.
+--vcf: 1266k variants scanned.
+--vcf: 1267k variants scanned.
+--vcf: 1268k variants scanned.
+--vcf: 1269k variants scanned.
+--vcf: 1270k variants scanned.
+--vcf: 1271k variants scanned.
+--vcf: 1272k variants scanned.
+--vcf: 1273k variants scanned.
+--vcf: 1274k variants scanned.
+--vcf: 1275k variants scanned.
+--vcf: 1276k variants scanned.
+--vcf: 1277k variants scanned.
+--vcf: 1278k variants scanned.
+--vcf: 1279k variants scanned.
+--vcf: 1280k variants scanned.
+--vcf: 1281k variants scanned.
+--vcf: 1282k variants scanned.
+--vcf: 1283k variants scanned.
+--vcf: 1284k variants scanned.
+--vcf: 1285k variants scanned.
+--vcf: 1286k variants scanned.
+--vcf: 1287k variants scanned.
+--vcf: 1288k variants scanned.
+--vcf: 1289k variants scanned.
+--vcf: 1290k variants scanned.
+--vcf: 1291k variants scanned.
+--vcf: 1292k variants scanned.
+--vcf: 1293k variants scanned.
+--vcf: 1294k variants scanned.
+--vcf: 1295k variants scanned.
+--vcf: 1296k variants scanned.
+--vcf: 1297k variants scanned.
+--vcf: 1298k variants scanned.
+--vcf: 1299k variants scanned.
+--vcf: 1300k variants scanned.
+--vcf: 1301k variants scanned.
+--vcf: 1302k variants scanned.
+--vcf: 1303k variants scanned.
+--vcf: 1304k variants scanned.
+--vcf: 1305k variants scanned.
+--vcf: 1306k variants scanned.
+--vcf: 1307k variants scanned.
+--vcf: 1308k variants scanned.
+--vcf: 1309k variants scanned.
+--vcf: 1310k variants scanned.
+--vcf: 1311k variants scanned.
+--vcf: 1312k variants scanned.
+--vcf: 1313k variants scanned.
+--vcf: 1314k variants scanned.
+--vcf: 1315k variants scanned.
+--vcf: 1316k variants scanned.
+--vcf: 1317k variants scanned.
+--vcf: 1318k variants scanned.
+--vcf: 1319k variants scanned.
+--vcf: 1320k variants scanned.
+--vcf: 1321k variants scanned.
+--vcf: 1322k variants scanned.
+--vcf: 1323k variants scanned.
+--vcf: 1324k variants scanned.
+--vcf: 1325k variants scanned.
+--vcf: 1326k variants scanned.
+--vcf: 1327k variants scanned.
+--vcf: 1328k variants scanned.
+--vcf: 1329k variants scanned.
+--vcf: 1330k variants scanned.
+--vcf: 1331k variants scanned.
+--vcf: 1332k variants scanned.
+--vcf: 1333k variants scanned.
+--vcf: 1334k variants scanned.
+--vcf: 1335k variants scanned.
+--vcf: 1336k variants scanned.
+--vcf: 1337k variants scanned.
+--vcf: 1338k variants scanned.
+--vcf: 1339k variants scanned.
+--vcf: 1340k variants scanned.
+--vcf: 1341k variants scanned.
+--vcf: 1342k variants scanned.
+--vcf: 1343k variants scanned.
+--vcf: 1344k variants scanned.
+--vcf: 1345k variants scanned.
+--vcf: 1346k variants scanned.
+--vcf: 1347k variants scanned.
+--vcf: 1348k variants scanned.
+--vcf: 1349k variants scanned.
+--vcf: 1350k variants scanned.
+--vcf: 1351k variants scanned.
+--vcf: 1352k variants scanned.
+--vcf: 1353k variants scanned.
+--vcf: 1354k variants scanned.
+--vcf: 1355k variants scanned.
+--vcf: 1356k variants scanned.
+--vcf: 1357k variants scanned.
+--vcf: 1358k variants scanned.
+--vcf: 1359k variants scanned.
+--vcf: 1360k variants scanned.
+--vcf: 1361k variants scanned.
+--vcf: 1362k variants scanned.
+--vcf: 1363k variants scanned.
+--vcf: 1364k variants scanned.
+--vcf: 1365k variants scanned.
+--vcf: 1366k variants scanned.
+--vcf: 1367k variants scanned.
+--vcf: 1368k variants scanned.
+--vcf: 1369k variants scanned.
+--vcf: 1370k variants scanned.
+--vcf: 1371k variants scanned.
+--vcf: 1372k variants scanned.
+--vcf: 1373k variants scanned.
+--vcf: 1374k variants scanned.
+--vcf: 1375k variants scanned.
+--vcf: 1376k variants scanned.
+--vcf: 1377k variants scanned.
+--vcf: 1378k variants scanned.
+--vcf: 1379k variants scanned.
+--vcf: 1380k variants scanned.
+--vcf: 1381k variants scanned.
+--vcf: 1382k variants scanned.
+--vcf: 1383k variants scanned.
+--vcf: 1384k variants scanned.
+--vcf: 1385k variants scanned.
+--vcf: 1386k variants scanned.
+--vcf: 1387k variants scanned.
+--vcf: 1388k variants scanned.
+--vcf: 1389k variants scanned.
+--vcf: 1390k variants scanned.
+--vcf: 1391k variants scanned.
+--vcf: 1392k variants scanned.
+--vcf: 1393k variants scanned.
+--vcf: 1394k variants scanned.
+--vcf: 1395k variants scanned.
+--vcf: 1396k variants scanned.
+--vcf: 1397k variants scanned.
+--vcf: 1398k variants scanned.
+--vcf: 1399k variants scanned.
+--vcf: 1400k variants scanned.
+--vcf: 1401k variants scanned.
+--vcf: 1402k variants scanned.
+--vcf: 1403k variants scanned.
+--vcf: 1404k variants scanned.
+--vcf: 1405k variants scanned.
+--vcf: 1406k variants scanned.
+--vcf: 1407k variants scanned.
+--vcf: 1408k variants scanned.
+--vcf: 1409k variants scanned.
+--vcf: 1410k variants scanned.
+--vcf: 1411k variants scanned.
+--vcf: 1412k variants scanned.
+--vcf: 1413k variants scanned.
+--vcf: 1414k variants scanned.
+--vcf: 1415k variants scanned.
+--vcf: 1416k variants scanned.
+--vcf: 1417k variants scanned.
+--vcf: 1418k variants scanned.
+--vcf: 1419k variants scanned.
+--vcf: 1420k variants scanned.
+--vcf: 1421k variants scanned.
+--vcf: 1422k variants scanned.
+--vcf: 1423k variants scanned.
+--vcf: 1424k variants scanned.
+--vcf: 1425k variants scanned.
+--vcf: 1426k variants scanned.
+--vcf: 1427k variants scanned.
+--vcf: 1428k variants scanned.
+--vcf: 1429k variants scanned.
+--vcf: 1430k variants scanned.
+--vcf: 1431k variants scanned.
+--vcf: 1432k variants scanned.
+--vcf: 1433k variants scanned.
+--vcf: 1434k variants scanned.
+--vcf: 1435k variants scanned.
+--vcf: 1436k variants scanned.
+--vcf: 1437k variants scanned.
+--vcf: 1438k variants scanned.
+--vcf: 1439k variants scanned.
+--vcf: 1440k variants scanned.
+--vcf: 1441k variants scanned.
+--vcf: 1442k variants scanned.
+--vcf: 1443k variants scanned.
+--vcf: 1444k variants scanned.
+--vcf: 1445k variants scanned.
+--vcf: 1446k variants scanned.
+--vcf: 1447k variants scanned.
+--vcf: 1448k variants scanned.
+--vcf: 1449k variants scanned.
+--vcf: 1450k variants scanned.
+--vcf: 1451k variants scanned.
+--vcf: 1452k variants scanned.
+--vcf: 1453k variants scanned.
+--vcf: 1454k variants scanned.
+--vcf: 1455k variants scanned.
+--vcf: 1456k variants scanned.
+--vcf: 1457k variants scanned.
+--vcf: 1458k variants scanned.
+--vcf: 1459k variants scanned.
+--vcf: 1460k variants scanned.
+--vcf: 1461k variants scanned.
+--vcf: 1462k variants scanned.
+--vcf: 1463k variants scanned.
+--vcf: 1464k variants scanned.
+--vcf: 1465k variants scanned.
+--vcf: 1466k variants scanned.
+--vcf: 1467k variants scanned.
+--vcf: 1468k variants scanned.
+--vcf: 1469k variants scanned.
+--vcf: 1470k variants scanned.
+--vcf: 1471k variants scanned.
+--vcf: 1472k variants scanned.
+--vcf: 1473k variants scanned.
+--vcf: 1474k variants scanned.
+--vcf: 1475k variants scanned.
+--vcf: 1476k variants scanned.
+--vcf: 1477k variants scanned.
+--vcf: 1478k variants scanned.
+--vcf: 1479k variants scanned.
+--vcf: 1480k variants scanned.
+--vcf: 1481k variants scanned.
+--vcf: 1482k variants scanned.
+--vcf: 1483k variants scanned.
+--vcf: 1484k variants scanned.
+--vcf: 1485k variants scanned.
+--vcf: 1486k variants scanned.
+--vcf: 1487k variants scanned.
+--vcf: 1488k variants scanned.
+--vcf: 1489k variants scanned.
+--vcf: 1490k variants scanned.
+--vcf: 1491k variants scanned.
+--vcf: 1492k variants scanned.
+--vcf: 1493k variants scanned.
+--vcf: 1494k variants scanned.
+--vcf: 1495k variants scanned.
+--vcf: 1496k variants scanned.
+--vcf: 1497k variants scanned.
+--vcf: 1498k variants scanned.
+--vcf: 1499k variants scanned.
+--vcf: 1500k variants scanned.
+--vcf: 1501k variants scanned.
+--vcf: 1502k variants scanned.
+--vcf: 1503k variants scanned.
+--vcf: 1504k variants scanned.
+--vcf: 1505k variants scanned.
+--vcf: 1506k variants scanned.
+--vcf: 1507k variants scanned.
+--vcf: 1508k variants scanned.
+--vcf: 1509k variants scanned.
+--vcf: 1510k variants scanned.
+--vcf: 1511k variants scanned.
+--vcf: 1512k variants scanned.
+--vcf: 1513k variants scanned.
+--vcf: 1514k variants scanned.
+--vcf: 1515k variants scanned.
+--vcf: 1516k variants scanned.
+--vcf: 1517k variants scanned.
+--vcf: 1518k variants scanned.
+--vcf: 1519k variants scanned.
+--vcf: 1520k variants scanned.
+--vcf: 1521k variants scanned.
+--vcf: 1522k variants scanned.
+--vcf: 1523k variants scanned.
+--vcf: 1524k variants scanned.
+--vcf: 1525k variants scanned.
+--vcf: 1526k variants scanned.
+--vcf: 1527k variants scanned.
+--vcf: 1528k variants scanned.
+--vcf: 1529k variants scanned.
+--vcf: 1530k variants scanned.
+--vcf: 1531k variants scanned.
+--vcf: 1532k variants scanned.
+--vcf: 1533k variants scanned.
+--vcf: 1534k variants scanned.
+--vcf: 1535k variants scanned.
+--vcf: 1536k variants scanned.
+--vcf: 1537k variants scanned.
+--vcf: 1538k variants scanned.
+--vcf: 1539k variants scanned.
+--vcf: 1540k variants scanned.
+--vcf: 1541k variants scanned.
+--vcf: 1542k variants scanned.
+--vcf: 1543k variants scanned.
+--vcf: 1544k variants scanned.
+--vcf: 1545k variants scanned.
+--vcf: 1546k variants scanned.
+--vcf: 1547k variants scanned.
+--vcf: 1548k variants scanned.
+--vcf: 1549k variants scanned.
+--vcf: 1550k variants scanned.
+--vcf: 1551k variants scanned.
+--vcf: 1552k variants scanned.
+--vcf: 1553k variants scanned.
+--vcf: 1554k variants scanned.
+--vcf: 1555k variants scanned.
+--vcf: 1556k variants scanned.
+--vcf: 1557k variants scanned.
+--vcf: 1558k variants scanned.
+--vcf: 1559k variants scanned.
+--vcf: 1560k variants scanned.
+--vcf: 1561k variants scanned.
+--vcf: 1562k variants scanned.
+--vcf: 1563k variants scanned.
+--vcf: 1564k variants scanned.
+--vcf: 1565k variants scanned.
+--vcf: 1566k variants scanned.
+--vcf: 1567k variants scanned.
+--vcf: 1568k variants scanned.
+--vcf: 1569k variants scanned.
+--vcf: 1570k variants scanned.
+--vcf: 1571k variants scanned.
+--vcf: 1572k variants scanned.
+--vcf: 1573k variants scanned.
+--vcf: 1574k variants scanned.
+--vcf: 1575k variants scanned.
+--vcf: 1576k variants scanned.
+--vcf: 1577k variants scanned.
+--vcf: 1578k variants scanned.
+--vcf: 1579k variants scanned.
+--vcf: 1580k variants scanned.
+--vcf: 1581k variants scanned.
+--vcf: 1582k variants scanned.
+--vcf: 1583k variants scanned.
+--vcf: 1584k variants scanned.
+--vcf: 1585k variants scanned.
+--vcf: 1586k variants scanned.
+--vcf: 1587k variants scanned.
+--vcf: 1588k variants scanned.
+--vcf: 1589k variants scanned.
+--vcf: 1590k variants scanned.
+--vcf: 1591k variants scanned.
+--vcf: 1592k variants scanned.
+--vcf: 1593k variants scanned.
+--vcf: 1594k variants scanned.
+--vcf: 1595k variants scanned.
+--vcf: 1596k variants scanned.
+--vcf: 1597k variants scanned.
+--vcf: 1598k variants scanned.
+--vcf: 1599k variants scanned.
+--vcf: 1600k variants scanned.
+--vcf: 1601k variants scanned.
+--vcf: 1602k variants scanned.
+--vcf: 1603k variants scanned.
+--vcf: 1604k variants scanned.
+--vcf: 1605k variants scanned.
+--vcf: 1606k variants scanned.
+--vcf: 1607k variants scanned.
+--vcf: 1608k variants scanned.
+--vcf: 1609k variants scanned.
+--vcf: 1610k variants scanned.
+--vcf: 1611k variants scanned.
+--vcf: 1612k variants scanned.
+--vcf: 1613k variants scanned.
+--vcf: 1614k variants scanned.
+--vcf: 1615k variants scanned.
+--vcf: 1616k variants scanned.
+--vcf: 1617k variants scanned.
+--vcf: 1618k variants scanned.
+--vcf: 1619k variants scanned.
+--vcf: 1620k variants scanned.
+--vcf: 1621k variants scanned.
+--vcf: 1622k variants scanned.
+--vcf: 1623k variants scanned.
+--vcf: 1624k variants scanned.
+--vcf: 1625k variants scanned.
+--vcf: 1626k variants scanned.
+--vcf: 1627k variants scanned.
+--vcf: 1628k variants scanned.
+--vcf: 1629k variants scanned.
+--vcf: 1630k variants scanned.
+--vcf: 1631k variants scanned.
+--vcf: 1632k variants scanned.
+--vcf: 1633k variants scanned.
+--vcf: 1634k variants scanned.
+--vcf: 1635k variants scanned.
+--vcf: 1636k variants scanned.
+--vcf: 1637k variants scanned.
+--vcf: 1638k variants scanned.
+--vcf: 1639k variants scanned.
+--vcf: 1640k variants scanned.
+--vcf: 1641k variants scanned.
+--vcf: 1642k variants scanned.
+--vcf: 1643k variants scanned.
+--vcf: 1644k variants scanned.
+--vcf: 1645k variants scanned.
+--vcf: 1646k variants scanned.
+--vcf: 1647k variants scanned.
+--vcf: 1648k variants scanned.
+--vcf: 1649k variants scanned.
+--vcf: 1650k variants scanned.
+--vcf: 1651k variants scanned.
+--vcf: 1652k variants scanned.
+--vcf: 1653k variants scanned.
+--vcf: 1654k variants scanned.
+--vcf: 1655k variants scanned.
+--vcf: 1656k variants scanned.
+--vcf: 1657k variants scanned.
+--vcf: 1658k variants scanned.
+--vcf: 1659k variants scanned.
+--vcf: 1660k variants scanned.
+--vcf: 1661k variants scanned.
+--vcf: 1662k variants scanned.
+--vcf: 1663k variants scanned.
+--vcf: 1664k variants scanned.
+--vcf: 1665k variants scanned.
+--vcf: 1666k variants scanned.
+--vcf: 1667k variants scanned.
+--vcf: 1668k variants scanned.
+--vcf: 1669k variants scanned.
+--vcf: 1670k variants scanned.
+--vcf: 1671k variants scanned.
+--vcf: 1672k variants scanned.
+--vcf: 1673k variants scanned.
+--vcf: 1674k variants scanned.
+--vcf: 1675k variants scanned.
+--vcf: 1676k variants scanned.
+--vcf: 1677k variants scanned.
+--vcf: 1678k variants scanned.
+--vcf: 1679k variants scanned.
+--vcf: 1680k variants scanned.
+--vcf: 1681k variants scanned.
+--vcf: 1682k variants scanned.
+--vcf: 1683k variants scanned.
+--vcf: 1684k variants scanned.
+--vcf: 1685k variants scanned.
+--vcf: 1686k variants scanned.
+--vcf: 1687k variants scanned.
+--vcf: 1688k variants scanned.
+--vcf: 1689k variants scanned.
+--vcf: 1690k variants scanned.
+--vcf: 1691k variants scanned.
+--vcf: 1692k variants scanned.
+--vcf: 1693k variants scanned.
+--vcf: 1694k variants scanned.
+--vcf: 1695k variants scanned.
+--vcf: 1696k variants scanned.
+--vcf: 1697k variants scanned.
+--vcf: 1698k variants scanned.
+--vcf: 1699k variants scanned.
+--vcf: 1700k variants scanned.
+--vcf: 1701k variants scanned.
+--vcf: 1702k variants scanned.
+--vcf: 1703k variants scanned.
+--vcf: 1704k variants scanned.
+--vcf: 1705k variants scanned.
+--vcf: 1706k variants scanned.
+--vcf: 1707k variants scanned.
+--vcf: 1708k variants scanned.
+--vcf: 1709k variants scanned.
+--vcf: 1710k variants scanned.
+--vcf: 1711k variants scanned.
+--vcf: 1712k variants scanned.
+--vcf: 1713k variants scanned.
+--vcf: 1714k variants scanned.
+--vcf: 1715k variants scanned.
+--vcf: 1716k variants scanned.
+--vcf: 1717k variants scanned.
+--vcf: 1718k variants scanned.
+--vcf: 1719k variants scanned.
+--vcf: 1720k variants scanned.
+--vcf: 1721k variants scanned.
+--vcf: 1722k variants scanned.
+--vcf: 1723k variants scanned.
+--vcf: 1724k variants scanned.
+--vcf: 1725k variants scanned.
+--vcf: 1726k variants scanned.
+--vcf: 1727k variants scanned.
+--vcf: 1728k variants scanned.
+--vcf: 1729k variants scanned.
+--vcf: 1730k variants scanned.
+--vcf: 1731k variants scanned.
+--vcf: 1732k variants scanned.
+--vcf: 1733k variants scanned.
+--vcf: 1734k variants scanned.
+--vcf: 1735k variants scanned.
+--vcf: 1736k variants scanned.
+--vcf: 1737k variants scanned.
+--vcf: 1738k variants scanned.
+--vcf: 1739k variants scanned.
+--vcf: 1740k variants scanned.
+--vcf: 1741k variants scanned.
+--vcf: 1742k variants scanned.
+--vcf: 1743k variants scanned.
+--vcf: 1744k variants scanned.
+--vcf: 1745k variants scanned.
+--vcf: 1746k variants scanned.
+--vcf: 1747k variants scanned.
+--vcf: 1748k variants scanned.
+--vcf: 1749k variants scanned.
+--vcf: 1750k variants scanned.
+--vcf: 1751k variants scanned.
+--vcf: 1752k variants scanned.
+--vcf: 1753k variants scanned.
+--vcf: 1754k variants scanned.
+--vcf: 1755k variants scanned.
+--vcf: 1756k variants scanned.
+--vcf: 1757k variants scanned.
+--vcf: 1758k variants scanned.
+--vcf: 1759k variants scanned.
+--vcf: 1760k variants scanned.
+--vcf: 1761k variants scanned.
+--vcf: 1762k variants scanned.
+--vcf: 1763k variants scanned.
+--vcf: 1764k variants scanned.
+--vcf: 1765k variants scanned.
+--vcf: 1766k variants scanned.
+--vcf: 1767k variants scanned.
+--vcf: 1768k variants scanned.
+--vcf: 1769k variants scanned.
+--vcf: 1770k variants scanned.
+--vcf: 1771k variants scanned.
+--vcf: 1772k variants scanned.
+--vcf: 1773k variants scanned.
+--vcf: 1774k variants scanned.
+--vcf: 1775k variants scanned.
+--vcf: 1776k variants scanned.
+--vcf: 1777k variants scanned.
+--vcf: 1778k variants scanned.
+--vcf: 1779k variants scanned.
+--vcf: 1780k variants scanned.
+--vcf: 1781k variants scanned.
+--vcf: 1782k variants scanned.
+--vcf: 1783k variants scanned.
+--vcf: 1784k variants scanned.
+--vcf: 1785k variants scanned.
+--vcf: 1786k variants scanned.
+--vcf: 1787k variants scanned.
+--vcf: 1788k variants scanned.
+--vcf: 1788147 variants scanned.
+
+--vcf: 65k variants converted.    
+--vcf: 131k variants converted.
+--vcf: 196k variants converted.
+--vcf: 262k variants converted.
+--vcf: 327k variants converted.
+--vcf: 393k variants converted.
+--vcf: 458k variants converted.
+--vcf: 524k variants converted.
+--vcf: 589k variants converted.
+--vcf: 655k variants converted.
+--vcf: 720k variants converted.
+--vcf: 786k variants converted.
+--vcf: 851k variants converted.
+--vcf: 917k variants converted.
+--vcf: 983k variants converted.
+--vcf: 1048k variants converted.
+--vcf: 1114k variants converted.
+--vcf: 1179k variants converted.
+--vcf: 1245k variants converted.
+--vcf: 1310k variants converted.
+--vcf: 1376k variants converted.
+--vcf: 1441k variants converted.
+--vcf: 1507k variants converted.
+--vcf: 1572k variants converted.
+--vcf: 1638k variants converted.
+--vcf: 1703k variants converted.
+--vcf: 1769k variants converted.
+--vcf:
+/mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_kinship-temporary.pgen
++
+/mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_kinship-temporary.pvar.zst
++
+/mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_kinship-temporary.psam
+written.
+10 samples (0 females, 0 males, 10 ambiguous; 10 founders) loaded from
+/mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_kinship-temporary.psam.
+1788147 variants loaded from
+/mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_kinship-temporary.pvar.zst.
+Note: No phenotype data present.
+--make-king pass 1/1: Scanning for rare variants... 0%3%7%10%14%18%21%25%29%32%36%40%43%47%51%54%58%62%65%69%73%76%80%84%87%91%95%98%done.
+208753 variants handled by initial scan (1579394 remaining).
+
+--make-king pass 1/1: 0 variants complete.
+--make-king pass 1/1: 1536 variants complete.
+--make-king pass 1/1: 3072 variants complete.
+--make-king pass 1/1: 4608 variants complete.
+--make-king pass 1/1: 6144 variants complete.
+--make-king pass 1/1: 7680 variants complete.
+--make-king pass 1/1: 9216 variants complete.
+--make-king pass 1/1: 10752 variants complete.
+--make-king pass 1/1: 12288 variants complete.
+--make-king pass 1/1: 13824 variants complete.
+--make-king pass 1/1: 15360 variants complete.
+--make-king pass 1/1: 16896 variants complete.
+--make-king pass 1/1: 18432 variants complete.
+--make-king pass 1/1: 19968 variants complete.
+--make-king pass 1/1: 21504 variants complete.
+--make-king pass 1/1: 23040 variants complete.
+--make-king pass 1/1: 24576 variants complete.
+--make-king pass 1/1: 26112 variants complete.
+--make-king pass 1/1: 27648 variants complete.
+--make-king pass 1/1: 29184 variants complete.
+--make-king pass 1/1: 30720 variants complete.
+--make-king pass 1/1: 32256 variants complete.
+--make-king pass 1/1: 33792 variants complete.
+--make-king pass 1/1: 35328 variants complete.
+--make-king pass 1/1: 36864 variants complete.
+--make-king pass 1/1: 38400 variants complete.
+--make-king pass 1/1: 39936 variants complete.
+--make-king pass 1/1: 41472 variants complete.
+--make-king pass 1/1: 43008 variants complete.
+--make-king pass 1/1: 44544 variants complete.
+--make-king pass 1/1: 46080 variants complete.
+--make-king pass 1/1: 47616 variants complete.
+--make-king pass 1/1: 49152 variants complete.
+--make-king pass 1/1: 50688 variants complete.
+--make-king pass 1/1: 52224 variants complete.
+--make-king pass 1/1: 53760 variants complete.
+--make-king pass 1/1: 55296 variants complete.
+--make-king pass 1/1: 56832 variants complete.
+--make-king pass 1/1: 58368 variants complete.
+--make-king pass 1/1: 59904 variants complete.
+--make-king pass 1/1: 61440 variants complete.
+--make-king pass 1/1: 62976 variants complete.
+--make-king pass 1/1: 64512 variants complete.
+--make-king pass 1/1: 66048 variants complete.
+--make-king pass 1/1: 67584 variants complete.
+--make-king pass 1/1: 69120 variants complete.
+--make-king pass 1/1: 70656 variants complete.
+--make-king pass 1/1: 72192 variants complete.
+--make-king pass 1/1: 73728 variants complete.
+--make-king pass 1/1: 75264 variants complete.
+--make-king pass 1/1: 76800 variants complete.
+--make-king pass 1/1: 78336 variants complete.
+--make-king pass 1/1: 79872 variants complete.
+--make-king pass 1/1: 81408 variants complete.
+--make-king pass 1/1: 82944 variants complete.
+--make-king pass 1/1: 84480 variants complete.
+--make-king pass 1/1: 86016 variants complete.
+--make-king pass 1/1: 87552 variants complete.
+--make-king pass 1/1: 89088 variants complete.
+--make-king pass 1/1: 90624 variants complete.
+--make-king pass 1/1: 92160 variants complete.
+--make-king pass 1/1: 93696 variants complete.
+--make-king pass 1/1: 95232 variants complete.
+--make-king pass 1/1: 96768 variants complete.
+--make-king pass 1/1: 98304 variants complete.
+--make-king pass 1/1: 99840 variants complete.
+--make-king pass 1/1: 101376 variants complete.
+--make-king pass 1/1: 102912 variants complete.
+--make-king pass 1/1: 104448 variants complete.
+--make-king pass 1/1: 105984 variants complete.
+--make-king pass 1/1: 107520 variants complete.
+--make-king pass 1/1: 109056 variants complete.
+--make-king pass 1/1: 110592 variants complete.
+--make-king pass 1/1: 112128 variants complete.
+--make-king pass 1/1: 113664 variants complete.
+--make-king pass 1/1: 115200 variants complete.
+--make-king pass 1/1: 116736 variants complete.
+--make-king pass 1/1: 118272 variants complete.
+--make-king pass 1/1: 119808 variants complete.
+--make-king pass 1/1: 121344 variants complete.
+--make-king pass 1/1: 122880 variants complete.
+--make-king pass 1/1: 124416 variants complete.
+--make-king pass 1/1: 125952 variants complete.
+--make-king pass 1/1: 127488 variants complete.
+--make-king pass 1/1: 129024 variants complete.
+--make-king pass 1/1: 130560 variants complete.
+--make-king pass 1/1: 132096 variants complete.
+--make-king pass 1/1: 133632 variants complete.
+--make-king pass 1/1: 135168 variants complete.
+--make-king pass 1/1: 136704 variants complete.
+--make-king pass 1/1: 138240 variants complete.
+--make-king pass 1/1: 139776 variants complete.
+--make-king pass 1/1: 141312 variants complete.
+--make-king pass 1/1: 142848 variants complete.
+--make-king pass 1/1: 144384 variants complete.
+--make-king pass 1/1: 145920 variants complete.
+--make-king pass 1/1: 147456 variants complete.
+--make-king pass 1/1: 148992 variants complete.
+--make-king pass 1/1: 150528 variants complete.
+--make-king pass 1/1: 152064 variants complete.
+--make-king pass 1/1: 153600 variants complete.
+--make-king pass 1/1: 155136 variants complete.
+--make-king pass 1/1: 156672 variants complete.
+--make-king pass 1/1: 158208 variants complete.
+--make-king pass 1/1: 159744 variants complete.
+--make-king pass 1/1: 161280 variants complete.
+--make-king pass 1/1: 162816 variants complete.
+--make-king pass 1/1: 164352 variants complete.
+--make-king pass 1/1: 165888 variants complete.
+--make-king pass 1/1: 167424 variants complete.
+--make-king pass 1/1: 168960 variants complete.
+--make-king pass 1/1: 170496 variants complete.
+--make-king pass 1/1: 172032 variants complete.
+--make-king pass 1/1: 173568 variants complete.
+--make-king pass 1/1: 175104 variants complete.
+--make-king pass 1/1: 176640 variants complete.
+--make-king pass 1/1: 178176 variants complete.
+--make-king pass 1/1: 179712 variants complete.
+--make-king pass 1/1: 181248 variants complete.
+--make-king pass 1/1: 182784 variants complete.
+--make-king pass 1/1: 184320 variants complete.
+--make-king pass 1/1: 185856 variants complete.
+--make-king pass 1/1: 187392 variants complete.
+--make-king pass 1/1: 188928 variants complete.
+--make-king pass 1/1: 190464 variants complete.
+--make-king pass 1/1: 192000 variants complete.
+--make-king pass 1/1: 193536 variants complete.
+--make-king pass 1/1: 195072 variants complete.
+--make-king pass 1/1: 196608 variants complete.
+--make-king pass 1/1: 198144 variants complete.
+--make-king pass 1/1: 199680 variants complete.
+--make-king pass 1/1: 201216 variants complete.
+--make-king pass 1/1: 202752 variants complete.
+--make-king pass 1/1: 204288 variants complete.
+--make-king pass 1/1: 205824 variants complete.
+--make-king pass 1/1: 207360 variants complete.
+--make-king pass 1/1: 208896 variants complete.
+--make-king pass 1/1: 210432 variants complete.
+--make-king pass 1/1: 211968 variants complete.
+--make-king pass 1/1: 213504 variants complete.
+--make-king pass 1/1: 215040 variants complete.
+--make-king pass 1/1: 216576 variants complete.
+--make-king pass 1/1: 218112 variants complete.
+--make-king pass 1/1: 219648 variants complete.
+--make-king pass 1/1: 221184 variants complete.
+--make-king pass 1/1: 222720 variants complete.
+--make-king pass 1/1: 224256 variants complete.
+--make-king pass 1/1: 225792 variants complete.
+--make-king pass 1/1: 227328 variants complete.
+--make-king pass 1/1: 228864 variants complete.
+--make-king pass 1/1: 230400 variants complete.
+--make-king pass 1/1: 231936 variants complete.
+--make-king pass 1/1: 233472 variants complete.
+--make-king pass 1/1: 235008 variants complete.
+--make-king pass 1/1: 236544 variants complete.
+--make-king pass 1/1: 238080 variants complete.
+--make-king pass 1/1: 239616 variants complete.
+--make-king pass 1/1: 241152 variants complete.
+--make-king pass 1/1: 242688 variants complete.
+--make-king pass 1/1: 244224 variants complete.
+--make-king pass 1/1: 245760 variants complete.
+--make-king pass 1/1: 247296 variants complete.
+--make-king pass 1/1: 248832 variants complete.
+--make-king pass 1/1: 250368 variants complete.
+--make-king pass 1/1: 251904 variants complete.
+--make-king pass 1/1: 253440 variants complete.
+--make-king pass 1/1: 254976 variants complete.
+--make-king pass 1/1: 256512 variants complete.
+--make-king pass 1/1: 258048 variants complete.
+--make-king pass 1/1: 259584 variants complete.
+--make-king pass 1/1: 261120 variants complete.
+--make-king pass 1/1: 262656 variants complete.
+--make-king pass 1/1: 264192 variants complete.
+--make-king pass 1/1: 265728 variants complete.
+--make-king pass 1/1: 267264 variants complete.
+--make-king pass 1/1: 268800 variants complete.
+--make-king pass 1/1: 270336 variants complete.
+--make-king pass 1/1: 271872 variants complete.
+--make-king pass 1/1: 273408 variants complete.
+--make-king pass 1/1: 274944 variants complete.
+--make-king pass 1/1: 276480 variants complete.
+--make-king pass 1/1: 278016 variants complete.
+--make-king pass 1/1: 279552 variants complete.
+--make-king pass 1/1: 281088 variants complete.
+--make-king pass 1/1: 282624 variants complete.
+--make-king pass 1/1: 284160 variants complete.
+--make-king pass 1/1: 285696 variants complete.
+--make-king pass 1/1: 287232 variants complete.
+--make-king pass 1/1: 288768 variants complete.
+--make-king pass 1/1: 290304 variants complete.
+--make-king pass 1/1: 291840 variants complete.
+--make-king pass 1/1: 293376 variants complete.
+--make-king pass 1/1: 294912 variants complete.
+--make-king pass 1/1: 296448 variants complete.
+--make-king pass 1/1: 297984 variants complete.
+--make-king pass 1/1: 299520 variants complete.
+--make-king pass 1/1: 301056 variants complete.
+--make-king pass 1/1: 302592 variants complete.
+--make-king pass 1/1: 304128 variants complete.
+--make-king pass 1/1: 305664 variants complete.
+--make-king pass 1/1: 307200 variants complete.
+--make-king pass 1/1: 308736 variants complete.
+--make-king pass 1/1: 310272 variants complete.
+--make-king pass 1/1: 311808 variants complete.
+--make-king pass 1/1: 313344 variants complete.
+--make-king pass 1/1: 314880 variants complete.
+--make-king pass 1/1: 316416 variants complete.
+--make-king pass 1/1: 317952 variants complete.
+--make-king pass 1/1: 319488 variants complete.
+--make-king pass 1/1: 321024 variants complete.
+--make-king pass 1/1: 322560 variants complete.
+--make-king pass 1/1: 324096 variants complete.
+--make-king pass 1/1: 325632 variants complete.
+--make-king pass 1/1: 327168 variants complete.
+--make-king pass 1/1: 328704 variants complete.
+--make-king pass 1/1: 330240 variants complete.
+--make-king pass 1/1: 331776 variants complete.
+--make-king pass 1/1: 333312 variants complete.
+--make-king pass 1/1: 334848 variants complete.
+--make-king pass 1/1: 336384 variants complete.
+--make-king pass 1/1: 337920 variants complete.
+--make-king pass 1/1: 339456 variants complete.
+--make-king pass 1/1: 340992 variants complete.
+--make-king pass 1/1: 342528 variants complete.
+--make-king pass 1/1: 344064 variants complete.
+--make-king pass 1/1: 345600 variants complete.
+--make-king pass 1/1: 347136 variants complete.
+--make-king pass 1/1: 348672 variants complete.
+--make-king pass 1/1: 350208 variants complete.
+--make-king pass 1/1: 351744 variants complete.
+--make-king pass 1/1: 353280 variants complete.
+--make-king pass 1/1: 354816 variants complete.
+--make-king pass 1/1: 356352 variants complete.
+--make-king pass 1/1: 357888 variants complete.
+--make-king pass 1/1: 359424 variants complete.
+--make-king pass 1/1: 360960 variants complete.
+--make-king pass 1/1: 362496 variants complete.
+--make-king pass 1/1: 364032 variants complete.
+--make-king pass 1/1: 365568 variants complete.
+--make-king pass 1/1: 367104 variants complete.
+--make-king pass 1/1: 368640 variants complete.
+--make-king pass 1/1: 370176 variants complete.
+--make-king pass 1/1: 371712 variants complete.
+--make-king pass 1/1: 373248 variants complete.
+--make-king pass 1/1: 374784 variants complete.
+--make-king pass 1/1: 376320 variants complete.
+--make-king pass 1/1: 377856 variants complete.
+--make-king pass 1/1: 379392 variants complete.
+--make-king pass 1/1: 380928 variants complete.
+--make-king pass 1/1: 382464 variants complete.
+--make-king pass 1/1: 384000 variants complete.
+--make-king pass 1/1: 385536 variants complete.
+--make-king pass 1/1: 387072 variants complete.
+--make-king pass 1/1: 388608 variants complete.
+--make-king pass 1/1: 390144 variants complete.
+--make-king pass 1/1: 391680 variants complete.
+--make-king pass 1/1: 393216 variants complete.
+--make-king pass 1/1: 394752 variants complete.
+--make-king pass 1/1: 396288 variants complete.
+--make-king pass 1/1: 397824 variants complete.
+--make-king pass 1/1: 399360 variants complete.
+--make-king pass 1/1: 400896 variants complete.
+--make-king pass 1/1: 402432 variants complete.
+--make-king pass 1/1: 403968 variants complete.
+--make-king pass 1/1: 405504 variants complete.
+--make-king pass 1/1: 407040 variants complete.
+--make-king pass 1/1: 408576 variants complete.
+--make-king pass 1/1: 410112 variants complete.
+--make-king pass 1/1: 411648 variants complete.
+--make-king pass 1/1: 413184 variants complete.
+--make-king pass 1/1: 414720 variants complete.
+--make-king pass 1/1: 416256 variants complete.
+--make-king pass 1/1: 417792 variants complete.
+--make-king pass 1/1: 419328 variants complete.
+--make-king pass 1/1: 420864 variants complete.
+--make-king pass 1/1: 422400 variants complete.
+--make-king pass 1/1: 423936 variants complete.
+--make-king pass 1/1: 425472 variants complete.
+--make-king pass 1/1: 427008 variants complete.
+--make-king pass 1/1: 428544 variants complete.
+--make-king pass 1/1: 430080 variants complete.
+--make-king pass 1/1: 431616 variants complete.
+--make-king pass 1/1: 433152 variants complete.
+--make-king pass 1/1: 434688 variants complete.
+--make-king pass 1/1: 436224 variants complete.
+--make-king pass 1/1: 437760 variants complete.
+--make-king pass 1/1: 439296 variants complete.
+--make-king pass 1/1: 440832 variants complete.
+--make-king pass 1/1: 442368 variants complete.
+--make-king pass 1/1: 443904 variants complete.
+--make-king pass 1/1: 445440 variants complete.
+--make-king pass 1/1: 446976 variants complete.
+--make-king pass 1/1: 448512 variants complete.
+--make-king pass 1/1: 450048 variants complete.
+--make-king pass 1/1: 451584 variants complete.
+--make-king pass 1/1: 453120 variants complete.
+--make-king pass 1/1: 454656 variants complete.
+--make-king pass 1/1: 456192 variants complete.
+--make-king pass 1/1: 457728 variants complete.
+--make-king pass 1/1: 459264 variants complete.
+--make-king pass 1/1: 460800 variants complete.
+--make-king pass 1/1: 462336 variants complete.
+--make-king pass 1/1: 463872 variants complete.
+--make-king pass 1/1: 465408 variants complete.
+--make-king pass 1/1: 466944 variants complete.
+--make-king pass 1/1: 468480 variants complete.
+--make-king pass 1/1: 470016 variants complete.
+--make-king pass 1/1: 471552 variants complete.
+--make-king pass 1/1: 473088 variants complete.
+--make-king pass 1/1: 474624 variants complete.
+--make-king pass 1/1: 476160 variants complete.
+--make-king pass 1/1: 477696 variants complete.
+--make-king pass 1/1: 479232 variants complete.
+--make-king pass 1/1: 480768 variants complete.
+--make-king pass 1/1: 482304 variants complete.
+--make-king pass 1/1: 483840 variants complete.
+--make-king pass 1/1: 485376 variants complete.
+--make-king pass 1/1: 486912 variants complete.
+--make-king pass 1/1: 488448 variants complete.
+--make-king pass 1/1: 489984 variants complete.
+--make-king pass 1/1: 491520 variants complete.
+--make-king pass 1/1: 493056 variants complete.
+--make-king pass 1/1: 494592 variants complete.
+--make-king pass 1/1: 496128 variants complete.
+--make-king pass 1/1: 497664 variants complete.
+--make-king pass 1/1: 499200 variants complete.
+--make-king pass 1/1: 500736 variants complete.
+--make-king pass 1/1: 502272 variants complete.
+--make-king pass 1/1: 503808 variants complete.
+--make-king pass 1/1: 505344 variants complete.
+--make-king pass 1/1: 506880 variants complete.
+--make-king pass 1/1: 508416 variants complete.
+--make-king pass 1/1: 509952 variants complete.
+--make-king pass 1/1: 511488 variants complete.
+--make-king pass 1/1: 513024 variants complete.
+--make-king pass 1/1: 514560 variants complete.
+--make-king pass 1/1: 516096 variants complete.
+--make-king pass 1/1: 517632 variants complete.
+--make-king pass 1/1: 519168 variants complete.
+--make-king pass 1/1: 520704 variants complete.
+--make-king pass 1/1: 522240 variants complete.
+--make-king pass 1/1: 523776 variants complete.
+--make-king pass 1/1: 525312 variants complete.
+--make-king pass 1/1: 526848 variants complete.
+--make-king pass 1/1: 528384 variants complete.
+--make-king pass 1/1: 529920 variants complete.
+--make-king pass 1/1: 531456 variants complete.
+--make-king pass 1/1: 532992 variants complete.
+--make-king pass 1/1: 534528 variants complete.
+--make-king pass 1/1: 536064 variants complete.
+--make-king pass 1/1: 537600 variants complete.
+--make-king pass 1/1: 539136 variants complete.
+--make-king pass 1/1: 540672 variants complete.
+--make-king pass 1/1: 542208 variants complete.
+--make-king pass 1/1: 543744 variants complete.
+--make-king pass 1/1: 545280 variants complete.
+--make-king pass 1/1: 546816 variants complete.
+--make-king pass 1/1: 548352 variants complete.
+--make-king pass 1/1: 549888 variants complete.
+--make-king pass 1/1: 551424 variants complete.
+--make-king pass 1/1: 552960 variants complete.
+--make-king pass 1/1: 554496 variants complete.
+--make-king pass 1/1: 556032 variants complete.
+--make-king pass 1/1: 557568 variants complete.
+--make-king pass 1/1: 559104 variants complete.
+--make-king pass 1/1: 560640 variants complete.
+--make-king pass 1/1: 562176 variants complete.
+--make-king pass 1/1: 563712 variants complete.
+--make-king pass 1/1: 565248 variants complete.
+--make-king pass 1/1: 566784 variants complete.
+--make-king pass 1/1: 568320 variants complete.
+--make-king pass 1/1: 569856 variants complete.
+--make-king pass 1/1: 571392 variants complete.
+--make-king pass 1/1: 572928 variants complete.
+--make-king pass 1/1: 574464 variants complete.
+--make-king pass 1/1: 576000 variants complete.
+--make-king pass 1/1: 577536 variants complete.
+--make-king pass 1/1: 579072 variants complete.
+--make-king pass 1/1: 580608 variants complete.
+--make-king pass 1/1: 582144 variants complete.
+--make-king pass 1/1: 583680 variants complete.
+--make-king pass 1/1: 585216 variants complete.
+--make-king pass 1/1: 586752 variants complete.
+--make-king pass 1/1: 588288 variants complete.
+--make-king pass 1/1: 589824 variants complete.
+--make-king pass 1/1: 591360 variants complete.
+--make-king pass 1/1: 592896 variants complete.
+--make-king pass 1/1: 594432 variants complete.
+--make-king pass 1/1: 595968 variants complete.
+--make-king pass 1/1: 597504 variants complete.
+--make-king pass 1/1: 599040 variants complete.
+--make-king pass 1/1: 600576 variants complete.
+--make-king pass 1/1: 602112 variants complete.
+--make-king pass 1/1: 603648 variants complete.
+--make-king pass 1/1: 605184 variants complete.
+--make-king pass 1/1: 606720 variants complete.
+--make-king pass 1/1: 608256 variants complete.
+--make-king pass 1/1: 609792 variants complete.
+--make-king pass 1/1: 611328 variants complete.
+--make-king pass 1/1: 612864 variants complete.
+--make-king pass 1/1: 614400 variants complete.
+--make-king pass 1/1: 615936 variants complete.
+--make-king pass 1/1: 617472 variants complete.
+--make-king pass 1/1: 619008 variants complete.
+--make-king pass 1/1: 620544 variants complete.
+--make-king pass 1/1: 622080 variants complete.
+--make-king pass 1/1: 623616 variants complete.
+--make-king pass 1/1: 625152 variants complete.
+--make-king pass 1/1: 626688 variants complete.
+--make-king pass 1/1: 628224 variants complete.
+--make-king pass 1/1: 629760 variants complete.
+--make-king pass 1/1: 631296 variants complete.
+--make-king pass 1/1: 632832 variants complete.
+--make-king pass 1/1: 634368 variants complete.
+--make-king pass 1/1: 635904 variants complete.
+--make-king pass 1/1: 637440 variants complete.
+--make-king pass 1/1: 638976 variants complete.
+--make-king pass 1/1: 640512 variants complete.
+--make-king pass 1/1: 642048 variants complete.
+--make-king pass 1/1: 643584 variants complete.
+--make-king pass 1/1: 645120 variants complete.
+--make-king pass 1/1: 646656 variants complete.
+--make-king pass 1/1: 648192 variants complete.
+--make-king pass 1/1: 649728 variants complete.
+--make-king pass 1/1: 651264 variants complete.
+--make-king pass 1/1: 652800 variants complete.
+--make-king pass 1/1: 654336 variants complete.
+--make-king pass 1/1: 655872 variants complete.
+--make-king pass 1/1: 657408 variants complete.
+--make-king pass 1/1: 658944 variants complete.
+--make-king pass 1/1: 660480 variants complete.
+--make-king pass 1/1: 662016 variants complete.
+--make-king pass 1/1: 663552 variants complete.
+--make-king pass 1/1: 665088 variants complete.
+--make-king pass 1/1: 666624 variants complete.
+--make-king pass 1/1: 668160 variants complete.
+--make-king pass 1/1: 669696 variants complete.
+--make-king pass 1/1: 671232 variants complete.
+--make-king pass 1/1: 672768 variants complete.
+--make-king pass 1/1: 674304 variants complete.
+--make-king pass 1/1: 675840 variants complete.
+--make-king pass 1/1: 677376 variants complete.
+--make-king pass 1/1: 678912 variants complete.
+--make-king pass 1/1: 680448 variants complete.
+--make-king pass 1/1: 681984 variants complete.
+--make-king pass 1/1: 683520 variants complete.
+--make-king pass 1/1: 685056 variants complete.
+--make-king pass 1/1: 686592 variants complete.
+--make-king pass 1/1: 688128 variants complete.
+--make-king pass 1/1: 689664 variants complete.
+--make-king pass 1/1: 691200 variants complete.
+--make-king pass 1/1: 692736 variants complete.
+--make-king pass 1/1: 694272 variants complete.
+--make-king pass 1/1: 695808 variants complete.
+--make-king pass 1/1: 697344 variants complete.
+--make-king pass 1/1: 698880 variants complete.
+--make-king pass 1/1: 700416 variants complete.
+--make-king pass 1/1: 701952 variants complete.
+--make-king pass 1/1: 703488 variants complete.
+--make-king pass 1/1: 705024 variants complete.
+--make-king pass 1/1: 706560 variants complete.
+--make-king pass 1/1: 708096 variants complete.
+--make-king pass 1/1: 709632 variants complete.
+--make-king pass 1/1: 711168 variants complete.
+--make-king pass 1/1: 712704 variants complete.
+--make-king pass 1/1: 714240 variants complete.
+--make-king pass 1/1: 715776 variants complete.
+--make-king pass 1/1: 717312 variants complete.
+--make-king pass 1/1: 718848 variants complete.
+--make-king pass 1/1: 720384 variants complete.
+--make-king pass 1/1: 721920 variants complete.
+--make-king pass 1/1: 723456 variants complete.
+--make-king pass 1/1: 724992 variants complete.
+--make-king pass 1/1: 726528 variants complete.
+--make-king pass 1/1: 728064 variants complete.
+--make-king pass 1/1: 729600 variants complete.
+--make-king pass 1/1: 731136 variants complete.
+--make-king pass 1/1: 732672 variants complete.
+--make-king pass 1/1: 734208 variants complete.
+--make-king pass 1/1: 735744 variants complete.
+--make-king pass 1/1: 737280 variants complete.
+--make-king pass 1/1: 738816 variants complete.
+--make-king pass 1/1: 740352 variants complete.
+--make-king pass 1/1: 741888 variants complete.
+--make-king pass 1/1: 743424 variants complete.
+--make-king pass 1/1: 744960 variants complete.
+--make-king pass 1/1: 746496 variants complete.
+--make-king pass 1/1: 748032 variants complete.
+--make-king pass 1/1: 749568 variants complete.
+--make-king pass 1/1: 751104 variants complete.
+--make-king pass 1/1: 752640 variants complete.
+--make-king pass 1/1: 754176 variants complete.
+--make-king pass 1/1: 755712 variants complete.
+--make-king pass 1/1: 757248 variants complete.
+--make-king pass 1/1: 758784 variants complete.
+--make-king pass 1/1: 760320 variants complete.
+--make-king pass 1/1: 761856 variants complete.
+--make-king pass 1/1: 763392 variants complete.
+--make-king pass 1/1: 764928 variants complete.
+--make-king pass 1/1: 766464 variants complete.
+--make-king pass 1/1: 768000 variants complete.
+--make-king pass 1/1: 769536 variants complete.
+--make-king pass 1/1: 771072 variants complete.
+--make-king pass 1/1: 772608 variants complete.
+--make-king pass 1/1: 774144 variants complete.
+--make-king pass 1/1: 775680 variants complete.
+--make-king pass 1/1: 777216 variants complete.
+--make-king pass 1/1: 778752 variants complete.
+--make-king pass 1/1: 780288 variants complete.
+--make-king pass 1/1: 781824 variants complete.
+--make-king pass 1/1: 783360 variants complete.
+--make-king pass 1/1: 784896 variants complete.
+--make-king pass 1/1: 786432 variants complete.
+--make-king pass 1/1: 787968 variants complete.
+--make-king pass 1/1: 789504 variants complete.
+--make-king pass 1/1: 791040 variants complete.
+--make-king pass 1/1: 792576 variants complete.
+--make-king pass 1/1: 794112 variants complete.
+--make-king pass 1/1: 795648 variants complete.
+--make-king pass 1/1: 797184 variants complete.
+--make-king pass 1/1: 798720 variants complete.
+--make-king pass 1/1: 800256 variants complete.
+--make-king pass 1/1: 801792 variants complete.
+--make-king pass 1/1: 803328 variants complete.
+--make-king pass 1/1: 804864 variants complete.
+--make-king pass 1/1: 806400 variants complete.
+--make-king pass 1/1: 807936 variants complete.
+--make-king pass 1/1: 809472 variants complete.
+--make-king pass 1/1: 811008 variants complete.
+--make-king pass 1/1: 812544 variants complete.
+--make-king pass 1/1: 814080 variants complete.
+--make-king pass 1/1: 815616 variants complete.
+--make-king pass 1/1: 817152 variants complete.
+--make-king pass 1/1: 818688 variants complete.
+--make-king pass 1/1: 820224 variants complete.
+--make-king pass 1/1: 821760 variants complete.
+--make-king pass 1/1: 823296 variants complete.
+--make-king pass 1/1: 824832 variants complete.
+--make-king pass 1/1: 826368 variants complete.
+--make-king pass 1/1: 827904 variants complete.
+--make-king pass 1/1: 829440 variants complete.
+--make-king pass 1/1: 830976 variants complete.
+--make-king pass 1/1: 832512 variants complete.
+--make-king pass 1/1: 834048 variants complete.
+--make-king pass 1/1: 835584 variants complete.
+--make-king pass 1/1: 837120 variants complete.
+--make-king pass 1/1: 838656 variants complete.
+--make-king pass 1/1: 840192 variants complete.
+--make-king pass 1/1: 841728 variants complete.
+--make-king pass 1/1: 843264 variants complete.
+--make-king pass 1/1: 844800 variants complete.
+--make-king pass 1/1: 846336 variants complete.
+--make-king pass 1/1: 847872 variants complete.
+--make-king pass 1/1: 849408 variants complete.
+--make-king pass 1/1: 850944 variants complete.
+--make-king pass 1/1: 852480 variants complete.
+--make-king pass 1/1: 854016 variants complete.
+--make-king pass 1/1: 855552 variants complete.
+--make-king pass 1/1: 857088 variants complete.
+--make-king pass 1/1: 858624 variants complete.
+--make-king pass 1/1: 860160 variants complete.
+--make-king pass 1/1: 861696 variants complete.
+--make-king pass 1/1: 863232 variants complete.
+--make-king pass 1/1: 864768 variants complete.
+--make-king pass 1/1: 866304 variants complete.
+--make-king pass 1/1: 867840 variants complete.
+--make-king pass 1/1: 869376 variants complete.
+--make-king pass 1/1: 870912 variants complete.
+--make-king pass 1/1: 872448 variants complete.
+--make-king pass 1/1: 873984 variants complete.
+--make-king pass 1/1: 875520 variants complete.
+--make-king pass 1/1: 877056 variants complete.
+--make-king pass 1/1: 878592 variants complete.
+--make-king pass 1/1: 880128 variants complete.
+--make-king pass 1/1: 881664 variants complete.
+--make-king pass 1/1: 883200 variants complete.
+--make-king pass 1/1: 884736 variants complete.
+--make-king pass 1/1: 886272 variants complete.
+--make-king pass 1/1: 887808 variants complete.
+--make-king pass 1/1: 889344 variants complete.
+--make-king pass 1/1: 890880 variants complete.
+--make-king pass 1/1: 892416 variants complete.
+--make-king pass 1/1: 893952 variants complete.
+--make-king pass 1/1: 895488 variants complete.
+--make-king pass 1/1: 897024 variants complete.
+--make-king pass 1/1: 898560 variants complete.
+--make-king pass 1/1: 900096 variants complete.
+--make-king pass 1/1: 901632 variants complete.
+--make-king pass 1/1: 903168 variants complete.
+--make-king pass 1/1: 904704 variants complete.
+--make-king pass 1/1: 906240 variants complete.
+--make-king pass 1/1: 907776 variants complete.
+--make-king pass 1/1: 909312 variants complete.
+--make-king pass 1/1: 910848 variants complete.
+--make-king pass 1/1: 912384 variants complete.
+--make-king pass 1/1: 913920 variants complete.
+--make-king pass 1/1: 915456 variants complete.
+--make-king pass 1/1: 916992 variants complete.
+--make-king pass 1/1: 918528 variants complete.
+--make-king pass 1/1: 920064 variants complete.
+--make-king pass 1/1: 921600 variants complete.
+--make-king pass 1/1: 923136 variants complete.
+--make-king pass 1/1: 924672 variants complete.
+--make-king pass 1/1: 926208 variants complete.
+--make-king pass 1/1: 927744 variants complete.
+--make-king pass 1/1: 929280 variants complete.
+--make-king pass 1/1: 930816 variants complete.
+--make-king pass 1/1: 932352 variants complete.
+--make-king pass 1/1: 933888 variants complete.
+--make-king pass 1/1: 935424 variants complete.
+--make-king pass 1/1: 936960 variants complete.
+--make-king pass 1/1: 938496 variants complete.
+--make-king pass 1/1: 940032 variants complete.
+--make-king pass 1/1: 941568 variants complete.
+--make-king pass 1/1: 943104 variants complete.
+--make-king pass 1/1: 944640 variants complete.
+--make-king pass 1/1: 946176 variants complete.
+--make-king pass 1/1: 947712 variants complete.
+--make-king pass 1/1: 949248 variants complete.
+--make-king pass 1/1: 950784 variants complete.
+--make-king pass 1/1: 952320 variants complete.
+--make-king pass 1/1: 953856 variants complete.
+--make-king pass 1/1: 955392 variants complete.
+--make-king pass 1/1: 956928 variants complete.
+--make-king pass 1/1: 958464 variants complete.
+--make-king pass 1/1: 960000 variants complete.
+--make-king pass 1/1: 961536 variants complete.
+--make-king pass 1/1: 963072 variants complete.
+--make-king pass 1/1: 964608 variants complete.
+--make-king pass 1/1: 966144 variants complete.
+--make-king pass 1/1: 967680 variants complete.
+--make-king pass 1/1: 969216 variants complete.
+--make-king pass 1/1: 970752 variants complete.
+--make-king pass 1/1: 972288 variants complete.
+--make-king pass 1/1: 973824 variants complete.
+--make-king pass 1/1: 975360 variants complete.
+--make-king pass 1/1: 976896 variants complete.
+--make-king pass 1/1: 978432 variants complete.
+--make-king pass 1/1: 979968 variants complete.
+--make-king pass 1/1: 981504 variants complete.
+--make-king pass 1/1: 983040 variants complete.
+--make-king pass 1/1: 984576 variants complete.
+--make-king pass 1/1: 986112 variants complete.
+--make-king pass 1/1: 987648 variants complete.
+--make-king pass 1/1: 989184 variants complete.
+--make-king pass 1/1: 990720 variants complete.
+--make-king pass 1/1: 992256 variants complete.
+--make-king pass 1/1: 993792 variants complete.
+--make-king pass 1/1: 995328 variants complete.
+--make-king pass 1/1: 996864 variants complete.
+--make-king pass 1/1: 998400 variants complete.
+--make-king pass 1/1: 999936 variants complete.
+--make-king pass 1/1: 1001472 variants complete.
+--make-king pass 1/1: 1003008 variants complete.
+--make-king pass 1/1: 1004544 variants complete.
+--make-king pass 1/1: 1006080 variants complete.
+--make-king pass 1/1: 1007616 variants complete.
+--make-king pass 1/1: 1009152 variants complete.
+--make-king pass 1/1: 1010688 variants complete.
+--make-king pass 1/1: 1012224 variants complete.
+--make-king pass 1/1: 1013760 variants complete.
+--make-king pass 1/1: 1015296 variants complete.
+--make-king pass 1/1: 1016832 variants complete.
+--make-king pass 1/1: 1018368 variants complete.
+--make-king pass 1/1: 1019904 variants complete.
+--make-king pass 1/1: 1021440 variants complete.
+--make-king pass 1/1: 1022976 variants complete.
+--make-king pass 1/1: 1024512 variants complete.
+--make-king pass 1/1: 1026048 variants complete.
+--make-king pass 1/1: 1027584 variants complete.
+--make-king pass 1/1: 1029120 variants complete.
+--make-king pass 1/1: 1030656 variants complete.
+--make-king pass 1/1: 1032192 variants complete.
+--make-king pass 1/1: 1033728 variants complete.
+--make-king pass 1/1: 1035264 variants complete.
+--make-king pass 1/1: 1036800 variants complete.
+--make-king pass 1/1: 1038336 variants complete.
+--make-king pass 1/1: 1039872 variants complete.
+--make-king pass 1/1: 1041408 variants complete.
+--make-king pass 1/1: 1042944 variants complete.
+--make-king pass 1/1: 1044480 variants complete.
+--make-king pass 1/1: 1046016 variants complete.
+--make-king pass 1/1: 1047552 variants complete.
+--make-king pass 1/1: 1049088 variants complete.
+--make-king pass 1/1: 1050624 variants complete.
+--make-king pass 1/1: 1052160 variants complete.
+--make-king pass 1/1: 1053696 variants complete.
+--make-king pass 1/1: 1055232 variants complete.
+--make-king pass 1/1: 1056768 variants complete.
+--make-king pass 1/1: 1058304 variants complete.
+--make-king pass 1/1: 1059840 variants complete.
+--make-king pass 1/1: 1061376 variants complete.
+--make-king pass 1/1: 1062912 variants complete.
+--make-king pass 1/1: 1064448 variants complete.
+--make-king pass 1/1: 1065984 variants complete.
+--make-king pass 1/1: 1067520 variants complete.
+--make-king pass 1/1: 1069056 variants complete.
+--make-king pass 1/1: 1070592 variants complete.
+--make-king pass 1/1: 1072128 variants complete.
+--make-king pass 1/1: 1073664 variants complete.
+--make-king pass 1/1: 1075200 variants complete.
+--make-king pass 1/1: 1076736 variants complete.
+--make-king pass 1/1: 1078272 variants complete.
+--make-king pass 1/1: 1079808 variants complete.
+--make-king pass 1/1: 1081344 variants complete.
+--make-king pass 1/1: 1082880 variants complete.
+--make-king pass 1/1: 1084416 variants complete.
+--make-king pass 1/1: 1085952 variants complete.
+--make-king pass 1/1: 1087488 variants complete.
+--make-king pass 1/1: 1089024 variants complete.
+--make-king pass 1/1: 1090560 variants complete.
+--make-king pass 1/1: 1092096 variants complete.
+--make-king pass 1/1: 1093632 variants complete.
+--make-king pass 1/1: 1095168 variants complete.
+--make-king pass 1/1: 1096704 variants complete.
+--make-king pass 1/1: 1098240 variants complete.
+--make-king pass 1/1: 1099776 variants complete.
+--make-king pass 1/1: 1101312 variants complete.
+--make-king pass 1/1: 1102848 variants complete.
+--make-king pass 1/1: 1104384 variants complete.
+--make-king pass 1/1: 1105920 variants complete.
+--make-king pass 1/1: 1107456 variants complete.
+--make-king pass 1/1: 1108992 variants complete.
+--make-king pass 1/1: 1110528 variants complete.
+--make-king pass 1/1: 1112064 variants complete.
+--make-king pass 1/1: 1113600 variants complete.
+--make-king pass 1/1: 1115136 variants complete.
+--make-king pass 1/1: 1116672 variants complete.
+--make-king pass 1/1: 1118208 variants complete.
+--make-king pass 1/1: 1119744 variants complete.
+--make-king pass 1/1: 1121280 variants complete.
+--make-king pass 1/1: 1122816 variants complete.
+--make-king pass 1/1: 1124352 variants complete.
+--make-king pass 1/1: 1125888 variants complete.
+--make-king pass 1/1: 1127424 variants complete.
+--make-king pass 1/1: 1128960 variants complete.
+--make-king pass 1/1: 1130496 variants complete.
+--make-king pass 1/1: 1132032 variants complete.
+--make-king pass 1/1: 1133568 variants complete.
+--make-king pass 1/1: 1135104 variants complete.
+--make-king pass 1/1: 1136640 variants complete.
+--make-king pass 1/1: 1138176 variants complete.
+--make-king pass 1/1: 1139712 variants complete.
+--make-king pass 1/1: 1141248 variants complete.
+--make-king pass 1/1: 1142784 variants complete.
+--make-king pass 1/1: 1144320 variants complete.
+--make-king pass 1/1: 1145856 variants complete.
+--make-king pass 1/1: 1147392 variants complete.
+--make-king pass 1/1: 1148928 variants complete.
+--make-king pass 1/1: 1150464 variants complete.
+--make-king pass 1/1: 1152000 variants complete.
+--make-king pass 1/1: 1153536 variants complete.
+--make-king pass 1/1: 1155072 variants complete.
+--make-king pass 1/1: 1156608 variants complete.
+--make-king pass 1/1: 1158144 variants complete.
+--make-king pass 1/1: 1159680 variants complete.
+--make-king pass 1/1: 1161216 variants complete.
+--make-king pass 1/1: 1162752 variants complete.
+--make-king pass 1/1: 1164288 variants complete.
+--make-king pass 1/1: 1165824 variants complete.
+--make-king pass 1/1: 1167360 variants complete.
+--make-king pass 1/1: 1168896 variants complete.
+--make-king pass 1/1: 1170432 variants complete.
+--make-king pass 1/1: 1171968 variants complete.
+--make-king pass 1/1: 1173504 variants complete.
+--make-king pass 1/1: 1175040 variants complete.
+--make-king pass 1/1: 1176576 variants complete.
+--make-king pass 1/1: 1178112 variants complete.
+--make-king pass 1/1: 1179648 variants complete.
+--make-king pass 1/1: 1181184 variants complete.
+--make-king pass 1/1: 1182720 variants complete.
+--make-king pass 1/1: 1184256 variants complete.
+--make-king pass 1/1: 1185792 variants complete.
+--make-king pass 1/1: 1187328 variants complete.
+--make-king pass 1/1: 1188864 variants complete.
+--make-king pass 1/1: 1190400 variants complete.
+--make-king pass 1/1: 1191936 variants complete.
+--make-king pass 1/1: 1193472 variants complete.
+--make-king pass 1/1: 1195008 variants complete.
+--make-king pass 1/1: 1196544 variants complete.
+--make-king pass 1/1: 1198080 variants complete.
+--make-king pass 1/1: 1199616 variants complete.
+--make-king pass 1/1: 1201152 variants complete.
+--make-king pass 1/1: 1202688 variants complete.
+--make-king pass 1/1: 1204224 variants complete.
+--make-king pass 1/1: 1205760 variants complete.
+--make-king pass 1/1: 1207296 variants complete.
+--make-king pass 1/1: 1208832 variants complete.
+--make-king pass 1/1: 1210368 variants complete.
+--make-king pass 1/1: 1211904 variants complete.
+--make-king pass 1/1: 1213440 variants complete.
+--make-king pass 1/1: 1214976 variants complete.
+--make-king pass 1/1: 1216512 variants complete.
+--make-king pass 1/1: 1218048 variants complete.
+--make-king pass 1/1: 1219584 variants complete.
+--make-king pass 1/1: 1221120 variants complete.
+--make-king pass 1/1: 1222656 variants complete.
+--make-king pass 1/1: 1224192 variants complete.
+--make-king pass 1/1: 1225728 variants complete.
+--make-king pass 1/1: 1227264 variants complete.
+--make-king pass 1/1: 1228800 variants complete.
+--make-king pass 1/1: 1230336 variants complete.
+--make-king pass 1/1: 1231872 variants complete.
+--make-king pass 1/1: 1233408 variants complete.
+--make-king pass 1/1: 1234944 variants complete.
+--make-king pass 1/1: 1236480 variants complete.
+--make-king pass 1/1: 1238016 variants complete.
+--make-king pass 1/1: 1239552 variants complete.
+--make-king pass 1/1: 1241088 variants complete.
+--make-king pass 1/1: 1242624 variants complete.
+--make-king pass 1/1: 1244160 variants complete.
+--make-king pass 1/1: 1245696 variants complete.
+--make-king pass 1/1: 1247232 variants complete.
+--make-king pass 1/1: 1248768 variants complete.
+--make-king pass 1/1: 1250304 variants complete.
+--make-king pass 1/1: 1251840 variants complete.
+--make-king pass 1/1: 1253376 variants complete.
+--make-king pass 1/1: 1254912 variants complete.
+--make-king pass 1/1: 1256448 variants complete.
+--make-king pass 1/1: 1257984 variants complete.
+--make-king pass 1/1: 1259520 variants complete.
+--make-king pass 1/1: 1261056 variants complete.
+--make-king pass 1/1: 1262592 variants complete.
+--make-king pass 1/1: 1264128 variants complete.
+--make-king pass 1/1: 1265664 variants complete.
+--make-king pass 1/1: 1267200 variants complete.
+--make-king pass 1/1: 1268736 variants complete.
+--make-king pass 1/1: 1270272 variants complete.
+--make-king pass 1/1: 1271808 variants complete.
+--make-king pass 1/1: 1273344 variants complete.
+--make-king pass 1/1: 1274880 variants complete.
+--make-king pass 1/1: 1276416 variants complete.
+--make-king pass 1/1: 1277952 variants complete.
+--make-king pass 1/1: 1279488 variants complete.
+--make-king pass 1/1: 1281024 variants complete.
+--make-king pass 1/1: 1282560 variants complete.
+--make-king pass 1/1: 1284096 variants complete.
+--make-king pass 1/1: 1285632 variants complete.
+--make-king pass 1/1: 1287168 variants complete.
+--make-king pass 1/1: 1288704 variants complete.
+--make-king pass 1/1: 1290240 variants complete.
+--make-king pass 1/1: 1291776 variants complete.
+--make-king pass 1/1: 1293312 variants complete.
+--make-king pass 1/1: 1294848 variants complete.
+--make-king pass 1/1: 1296384 variants complete.
+--make-king pass 1/1: 1297920 variants complete.
+--make-king pass 1/1: 1299456 variants complete.
+--make-king pass 1/1: 1300992 variants complete.
+--make-king pass 1/1: 1302528 variants complete.
+--make-king pass 1/1: 1304064 variants complete.
+--make-king pass 1/1: 1305600 variants complete.
+--make-king pass 1/1: 1307136 variants complete.
+--make-king pass 1/1: 1308672 variants complete.
+--make-king pass 1/1: 1310208 variants complete.
+--make-king pass 1/1: 1311744 variants complete.
+--make-king pass 1/1: 1313280 variants complete.
+--make-king pass 1/1: 1314816 variants complete.
+--make-king pass 1/1: 1316352 variants complete.
+--make-king pass 1/1: 1317888 variants complete.
+--make-king pass 1/1: 1319424 variants complete.
+--make-king pass 1/1: 1320960 variants complete.
+--make-king pass 1/1: 1322496 variants complete.
+--make-king pass 1/1: 1324032 variants complete.
+--make-king pass 1/1: 1325568 variants complete.
+--make-king pass 1/1: 1327104 variants complete.
+--make-king pass 1/1: 1328640 variants complete.
+--make-king pass 1/1: 1330176 variants complete.
+--make-king pass 1/1: 1331712 variants complete.
+--make-king pass 1/1: 1333248 variants complete.
+--make-king pass 1/1: 1334784 variants complete.
+--make-king pass 1/1: 1336320 variants complete.
+--make-king pass 1/1: 1337856 variants complete.
+--make-king pass 1/1: 1339392 variants complete.
+--make-king pass 1/1: 1340928 variants complete.
+--make-king pass 1/1: 1342464 variants complete.
+--make-king pass 1/1: 1344000 variants complete.
+--make-king pass 1/1: 1345536 variants complete.
+--make-king pass 1/1: 1347072 variants complete.
+--make-king pass 1/1: 1348608 variants complete.
+--make-king pass 1/1: 1350144 variants complete.
+--make-king pass 1/1: 1351680 variants complete.
+--make-king pass 1/1: 1353216 variants complete.
+--make-king pass 1/1: 1354752 variants complete.
+--make-king pass 1/1: 1356288 variants complete.
+--make-king pass 1/1: 1357824 variants complete.
+--make-king pass 1/1: 1359360 variants complete.
+--make-king pass 1/1: 1360896 variants complete.
+--make-king pass 1/1: 1362432 variants complete.
+--make-king pass 1/1: 1363968 variants complete.
+--make-king pass 1/1: 1365504 variants complete.
+--make-king pass 1/1: 1367040 variants complete.
+--make-king pass 1/1: 1368576 variants complete.
+--make-king pass 1/1: 1370112 variants complete.
+--make-king pass 1/1: 1371648 variants complete.
+--make-king pass 1/1: 1373184 variants complete.
+--make-king pass 1/1: 1374720 variants complete.
+--make-king pass 1/1: 1376256 variants complete.
+--make-king pass 1/1: 1377792 variants complete.
+--make-king pass 1/1: 1379328 variants complete.
+--make-king pass 1/1: 1380864 variants complete.
+--make-king pass 1/1: 1382400 variants complete.
+--make-king pass 1/1: 1383936 variants complete.
+--make-king pass 1/1: 1385472 variants complete.
+--make-king pass 1/1: 1387008 variants complete.
+--make-king pass 1/1: 1388544 variants complete.
+--make-king pass 1/1: 1390080 variants complete.
+--make-king pass 1/1: 1391616 variants complete.
+--make-king pass 1/1: 1393152 variants complete.
+--make-king pass 1/1: 1394688 variants complete.
+--make-king pass 1/1: 1396224 variants complete.
+--make-king pass 1/1: 1397760 variants complete.
+--make-king pass 1/1: 1399296 variants complete.
+--make-king pass 1/1: 1400832 variants complete.
+--make-king pass 1/1: 1402368 variants complete.
+--make-king pass 1/1: 1403904 variants complete.
+--make-king pass 1/1: 1405440 variants complete.
+--make-king pass 1/1: 1406976 variants complete.
+--make-king pass 1/1: 1408512 variants complete.
+--make-king pass 1/1: 1410048 variants complete.
+--make-king pass 1/1: 1411584 variants complete.
+--make-king pass 1/1: 1413120 variants complete.
+--make-king pass 1/1: 1414656 variants complete.
+--make-king pass 1/1: 1416192 variants complete.
+--make-king pass 1/1: 1417728 variants complete.
+--make-king pass 1/1: 1419264 variants complete.
+--make-king pass 1/1: 1420800 variants complete.
+--make-king pass 1/1: 1422336 variants complete.
+--make-king pass 1/1: 1423872 variants complete.
+--make-king pass 1/1: 1425408 variants complete.
+--make-king pass 1/1: 1426944 variants complete.
+--make-king pass 1/1: 1428480 variants complete.
+--make-king pass 1/1: 1430016 variants complete.
+--make-king pass 1/1: 1431552 variants complete.
+--make-king pass 1/1: 1433088 variants complete.
+--make-king pass 1/1: 1434624 variants complete.
+--make-king pass 1/1: 1436160 variants complete.
+--make-king pass 1/1: 1437696 variants complete.
+--make-king pass 1/1: 1439232 variants complete.
+--make-king pass 1/1: 1440768 variants complete.
+--make-king pass 1/1: 1442304 variants complete.
+--make-king pass 1/1: 1443840 variants complete.
+--make-king pass 1/1: 1445376 variants complete.
+--make-king pass 1/1: 1446912 variants complete.
+--make-king pass 1/1: 1448448 variants complete.
+--make-king pass 1/1: 1449984 variants complete.
+--make-king pass 1/1: 1451520 variants complete.
+--make-king pass 1/1: 1453056 variants complete.
+--make-king pass 1/1: 1454592 variants complete.
+--make-king pass 1/1: 1456128 variants complete.
+--make-king pass 1/1: 1457664 variants complete.
+--make-king pass 1/1: 1459200 variants complete.
+--make-king pass 1/1: 1460736 variants complete.
+--make-king pass 1/1: 1462272 variants complete.
+--make-king pass 1/1: 1463808 variants complete.
+--make-king pass 1/1: 1465344 variants complete.
+--make-king pass 1/1: 1466880 variants complete.
+--make-king pass 1/1: 1468416 variants complete.
+--make-king pass 1/1: 1469952 variants complete.
+--make-king pass 1/1: 1471488 variants complete.
+--make-king pass 1/1: 1473024 variants complete.
+--make-king pass 1/1: 1474560 variants complete.
+--make-king pass 1/1: 1476096 variants complete.
+--make-king pass 1/1: 1477632 variants complete.
+--make-king pass 1/1: 1479168 variants complete.
+--make-king pass 1/1: 1480704 variants complete.
+--make-king pass 1/1: 1482240 variants complete.
+--make-king pass 1/1: 1483776 variants complete.
+--make-king pass 1/1: 1485312 variants complete.
+--make-king pass 1/1: 1486848 variants complete.
+--make-king pass 1/1: 1488384 variants complete.
+--make-king pass 1/1: 1489920 variants complete.
+--make-king pass 1/1: 1491456 variants complete.
+--make-king pass 1/1: 1492992 variants complete.
+--make-king pass 1/1: 1494528 variants complete.
+--make-king pass 1/1: 1496064 variants complete.
+--make-king pass 1/1: 1497600 variants complete.
+--make-king pass 1/1: 1499136 variants complete.
+--make-king pass 1/1: 1500672 variants complete.
+--make-king pass 1/1: 1502208 variants complete.
+--make-king pass 1/1: 1503744 variants complete.
+--make-king pass 1/1: 1505280 variants complete.
+--make-king pass 1/1: 1506816 variants complete.
+--make-king pass 1/1: 1508352 variants complete.
+--make-king pass 1/1: 1509888 variants complete.
+--make-king pass 1/1: 1511424 variants complete.
+--make-king pass 1/1: 1512960 variants complete.
+--make-king pass 1/1: 1514496 variants complete.
+--make-king pass 1/1: 1516032 variants complete.
+--make-king pass 1/1: 1517568 variants complete.
+--make-king pass 1/1: 1519104 variants complete.
+--make-king pass 1/1: 1520640 variants complete.
+--make-king pass 1/1: 1522176 variants complete.
+--make-king pass 1/1: 1523712 variants complete.
+--make-king pass 1/1: 1525248 variants complete.
+--make-king pass 1/1: 1526784 variants complete.
+--make-king pass 1/1: 1528320 variants complete.
+--make-king pass 1/1: 1529856 variants complete.
+--make-king pass 1/1: 1531392 variants complete.
+--make-king pass 1/1: 1532928 variants complete.
+--make-king pass 1/1: 1534464 variants complete.
+--make-king pass 1/1: 1536000 variants complete.
+--make-king pass 1/1: 1537536 variants complete.
+--make-king pass 1/1: 1539072 variants complete.
+--make-king pass 1/1: 1540608 variants complete.
+--make-king pass 1/1: 1542144 variants complete.
+--make-king pass 1/1: 1543680 variants complete.
+--make-king pass 1/1: 1545216 variants complete.
+--make-king pass 1/1: 1546752 variants complete.
+--make-king pass 1/1: 1548288 variants complete.
+--make-king pass 1/1: 1549824 variants complete.
+--make-king pass 1/1: 1551360 variants complete.
+--make-king pass 1/1: 1552896 variants complete.
+--make-king pass 1/1: 1554432 variants complete.
+--make-king pass 1/1: 1555968 variants complete.
+--make-king pass 1/1: 1557504 variants complete.
+--make-king pass 1/1: 1559040 variants complete.
+--make-king pass 1/1: 1560576 variants complete.
+--make-king pass 1/1: 1562112 variants complete.
+--make-king pass 1/1: 1563648 variants complete.
+--make-king pass 1/1: 1565184 variants complete.
+--make-king pass 1/1: 1566720 variants complete.
+--make-king pass 1/1: 1568256 variants complete.
+--make-king pass 1/1: 1569792 variants complete.
+--make-king pass 1/1: 1571328 variants complete.
+--make-king pass 1/1: 1572864 variants complete.
+--make-king pass 1/1: 1574400 variants complete.
+--make-king pass 1/1: 1575936 variants complete.
+--make-king pass 1/1: 1577472 variants complete.
+--make-king pass 1/1: 1579008 variants complete.
+--make-king pass 1/1: Writing...                    done.
+--make-king: 1788147 variants processed.
+Results written to
+/mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_kinship.king
+and
+/mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_kinship.king.id
+.
+End time: Thu Jan 30 11:32:51 2025
+2025-01-30 11:32:51 - Kinship matrix saved as /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_kinship.king
+2025-01-30 11:32:51 - Final kinship matrix saved as /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10_final_kinship.tsv
+2025-01-30 11:32:51 - Execution time: 1.11 seconds

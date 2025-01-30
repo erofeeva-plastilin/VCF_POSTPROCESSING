@@ -1,0 +1,151 @@
+2025-01-30 13:54:30 - [STDOUT] Converting file '/mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.vcf':
+
+Number of samples in VCF: 10
+500000 genotypes processed.
+1000000 genotypes processed.
+1500000 genotypes processed.
+Total of genotypes processed: 1788147
+Genotypes excluded because they exceeded the amount of missing data allowed: 532
+Genotypes that passed missing data filter but were excluded for being MNPs: 0
+SNPs that passed the filters: 1787615
+
+Sample 1 of 10, 'SRR1239729', added to the nucleotide matrix(ces).
+Sample 2 of 10, 'SRR1240041', added to the nucleotide matrix(ces).
+Sample 3 of 10, 'SRR1239710', added to the nucleotide matrix(ces).
+Sample 4 of 10, 'SRR1239639', added to the nucleotide matrix(ces).
+Sample 5 of 10, 'SRR1240070', added to the nucleotide matrix(ces).
+Sample 6 of 10, 'SRR1239661', added to the nucleotide matrix(ces).
+Sample 7 of 10, 'SRR1239802', added to the nucleotide matrix(ces).
+Sample 8 of 10, 'SRR1239731', added to the nucleotide matrix(ces).
+Sample 9 of 10, 'SRR1239790', added to the nucleotide matrix(ces).
+Sample 10 of 10, 'SRR1239833', added to the nucleotide matrix(ces).
+
+PHYLIP matrix saved to: rename_chr_our_10.min4.phy
+
+Done!
+2025-01-30 13:54:30 - PHYLIP matrix moved to /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy
+2025-01-30 14:03:11 - [STDOUT] IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    novaplant1 (AVX512, FMA3, 503 GB RAM)
+Command: /mnt/tools/iqtree-2.3.6-Linux-intel/bin/iqtree2 -s /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy -m GTR+G -nt 10 -st DNA -bb 1000
+Seed:    635220 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jan 30 13:54:30 2025
+Kernel:  AVX+FMA - 10 threads (40 CPU cores detected)
+
+Reading alignment file /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+WARNING: Your specified sequence type is different from the detected one
+Alignment has 10 sequences with 1787615 columns, 460438 distinct patterns
+442865 parsimony-informative, 351568 singleton sites, 993181 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00917144 secs using 885.5% CPU
+   1  SRR1239729   28.76%    failed      0.00%
+   2  SRR1240041   23.67%    failed      0.00%
+   3  SRR1239710   26.05%    failed      0.00%
+   4  SRR1239639   23.24%    failed      0.00%
+   5  SRR1240070   22.29%    passed      7.19%
+   6  SRR1239661   24.18%    passed     38.31%
+   7  SRR1239802   23.28%    failed      0.25%
+   8  SRR1239731   24.92%    passed     23.33%
+   9  SRR1239790   23.65%    failed      0.24%
+  10  SRR1239833   27.65%    failed      0.00%
+****  TOTAL        24.77%  7 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000055940 for long alignment
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.536 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 635220)...
+
+NOTE: 2353 MB RAM (2 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -8661427.876
+2. Current log-likelihood: -8112280.175
+3. Current log-likelihood: -8108191.689
+4. Current log-likelihood: -8108185.073
+Optimal log-likelihood: -8108185.017
+Rate parameters:  A-C: 0.99415  A-G: 6.08370  A-T: 1.29600  C-G: 0.53208  C-T: 6.08987  G-T: 1.00000
+Base frequencies:  A: 0.235  C: 0.265  G: 0.265  T: 0.235
+Gamma shape alpha: 0.785
+Parameters optimization took 4 rounds (16.845 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0439061 secs using 687.1% CPU
+Computing ML distances took 0.076300 sec (of wall-clock time) 0.547694 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 7.27884e-05 secs using 906.7% CPU
+Computing RapidNJ tree took 0.000234 sec (of wall-clock time) 0.001190 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -8113477.508
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 66.997 second
+Computing log-likelihood of 87 initial trees ... 32.221 seconds
+Current best score: -8108185.017
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -8107650.503
+Iteration 10 / LogL: -8107677.123 / Time: 0h:3m:15s
+Iteration 20 / LogL: -8109037.999 / Time: 0h:3m:56s
+Finish initializing candidate tree set (2)
+Current best tree score: -8107650.503 / CPU time: 175.806
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -8107650.503
+Iteration 30 / LogL: -8111226.186 / Time: 0h:4m:30s (0h:11m:1s left)
+Iteration 40 / LogL: -8109030.776 / Time: 0h:5m:6s (0h:7m:58s left)
+Iteration 50 / LogL: -8107656.311 / Time: 0h:5m:39s (0h:5m:52s left)
+Log-likelihood cutoff on original alignment: -8109038.292
+Iteration 60 / LogL: -8108246.002 / Time: 0h:6m:12s (0h:4m:18s left)
+Iteration 70 / LogL: -8107651.550 / Time: 0h:6m:46s (0h:3m:2s left)
+Iteration 80 / LogL: -8108201.492 / Time: 0h:7m:19s (0h:1m:56s left)
+Iteration 90 / LogL: -8107651.845 / Time: 0h:7m:57s (0h:0m:58s left)
+Iteration 100 / LogL: -8107654.091 / Time: 0h:8m:28s (0h:0m:5s left)
+Log-likelihood cutoff on original alignment: -8109033.268
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:8m:33s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -8107650.503
+Optimal log-likelihood: -8107650.498
+Rate parameters:  A-C: 0.99369  A-G: 6.08413  A-T: 1.29617  C-G: 0.53137  C-T: 6.09037  G-T: 1.00000
+Base frequencies:  A: 0.235  C: 0.265  G: 0.265  T: 0.235
+Gamma shape alpha: 0.781
+Parameters optimization took 1 rounds (1.319 sec)
+BEST SCORE FOUND : -8107650.498
+Creating bootstrap support values...
+Split supports printed to NEXUS file /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy.splits.nex
+Total tree length: 1.046
+
+Total number of iterations: 102
+CPU time used for tree search: 3941.431 sec (1h:5m:41s)
+Wall-clock time used for tree search: 452.752 sec (0h:7m:32s)
+Total CPU time used: 4176.466 sec (1h:9m:36s)
+Total wall-clock time used: 515.297 sec (0h:8m:35s)
+
+Computing bootstrap consensus tree...
+Reading input file /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy.splits.nex...
+10 taxa and 21 splits.
+Consensus tree written to /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy.contree
+Reading input trees file /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy.contree
+Log-likelihood of consensus tree: -8107650.498
+
+Analysis results written to: 
+  IQ-TREE report:                /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy.iqtree
+  Maximum-likelihood tree:       /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy.treefile
+  Likelihood distances:          /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy.splits.nex
+  Consensus tree:                /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy.contree
+  Screen log file:               /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy.log
+
+Date and Time: Thu Jan 30 14:03:11 2025
+2025-01-30 14:03:11 - Tree saved as /mnt/users/erofeevan/VCF_POSTPROCESSING_PIPELINE/Final/data/rename_chr_our_10.min4.phy.contree (Newick format)
+2025-01-30 14:03:11 - Execution time: 543.87 seconds
