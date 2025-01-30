@@ -2,6 +2,7 @@
 ## Installation
 ```
 git clone https://github.com/erofeeva-plastilin/VCF_POSTPROCESSING.git
+conda env create -f environment.yml
 conda activate GWAS-PIPELINE
 ```
 ## Pipeline Components
