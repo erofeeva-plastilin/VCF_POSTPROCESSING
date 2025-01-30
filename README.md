@@ -17,9 +17,9 @@ Performs Principal Component Analysis (PCA) on the VCF file:
 - If <50 samples, checks and fills missing variant IDs, computes allele frequencies, and then performs PCA                   
 - Cleans up temporary logs (.log)                   
 **Input:**                   
-📄 *_.vcf                   
+📄 *_vcf                   
 **Output:**                   
-📄 *_pca.eigenval, *_pca.eigenvec                       
+📄 *_pca.eigenval, *_pca.eigenvec                      
 (if <50 samples): *_pca.eigenval, *_pca.eigenvec, *_afreq, *_id.vcf                   
 **Example:**                   
 ```
@@ -32,10 +32,10 @@ Computes genetic distance (1 - IBS) using plink 1.9:
 - Extracts sample IDs and converts results into a TSV format matrix                   
 - Removes temporary log files (.log)                   
 **Input:**                   
-📄 *_.vcf                   
+📄 *_vcf                   
 **Output:**                   
 📄 *_final_genetic_distances.tsv                   
-*_.mdist.id, *_.mdist                   
+*_mdist.id, *_mdist, *_nosex                   
 **Example:**                   
 ```
 python3 part_2_vcf_distance_matrix.py {input}.vcf
