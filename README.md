@@ -20,7 +20,7 @@ Performs Principal Component Analysis (PCA) on the VCF file:
 📄 *_.vcf                   
 **Output:**                   
 📄 *_pca.eigenval, *_pca.eigenvec                       
-*_afreq, *_id.vcf (+ if <50 samples)                   
+(if <50 samples): *_pca.eigenval, *_pca.eigenvec, *_afreq, *_id.vcf                   
 **Example:**                   
 ```
 python3 part_1_vcf_pca_analysis.py {input}.vcf
