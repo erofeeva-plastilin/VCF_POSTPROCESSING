@@ -5,13 +5,13 @@ git clone https://github.com/erofeeva-plastilin/VCF_POSTPROCESSING.git
 conda activate GWAS-PIPELINE
 ```
 ## Pipeline Components
-💡 **part_0_common.py (Core Functions)**                    
+### 💡 **part_0_common.py (Core Functions)**                    
 This script contains common utility functions used across all other scripts:                   
 - run_command() → Executes shell commands and logs outputs                   
 - check_input_file() → Ensures the input VCF file is provided and exists                   
 - get_output_name() → Generates standardized output file names based on the input VCF                   
 
-💡 **part_1_vcf_pca_analysis.py (PCA Analysis)**                    
+### 💡 **part_1_vcf_pca_analysis.py (PCA Analysis)**                    
 Performs Principal Component Analysis (PCA) on the VCF file:                   
 - If >50 samples, runs plink2 for PCA directly                   
 - If <50 samples, checks and fills missing variant IDs, computes allele frequencies, and then performs PCA                   
@@ -26,7 +26,7 @@ Performs Principal Component Analysis (PCA) on the VCF file:
 python3 part_1_vcf_pca_analysis.py {input}.vcf
 ```
 
-💡 **part_2_vcf_distance_matrix.py (Genetic Distance Matrix)**                    
+### 💡 **part_2_vcf_distance_matrix.py (Genetic Distance Matrix)**                    
 Computes genetic distance (1 - IBS) using plink 1.9:                   
 - Runs plink --distance square **1-ibs** to generate the distance matrix                   
 - Extracts sample IDs and converts results into a TSV format matrix                   
@@ -41,7 +41,7 @@ Computes genetic distance (1 - IBS) using plink 1.9:
 python3 part_2_vcf_distance_matrix.py {input}.vcf
 ```
 
-💡 **part_3_vcf_het.py (Heterozygosity Analysis)**                   
+### 💡 **part_3_vcf_het.py (Heterozygosity Analysis)**                   
 Analyzes heterozygosity levels for each sample using vcftools --het:                   
 - Generates a heterozygosity report for quality control (vcftools)                   
 - Deletes unnecessary log files (.log)                   
@@ -54,7 +54,7 @@ Analyzes heterozygosity levels for each sample using vcftools --het:
 python3 part_3_vcf_het.py {input}.vcf
 ```
 
-💡 **part_4_vcf_tree.py (Phylogenetic Tree Construction)**                   
+### 💡 **part_4_vcf_tree.py (Phylogenetic Tree Construction)**                   
 Constructs a phylogenetic tree from the VCF file:                   
 - Converts VCF to PHYLIP format (vcf2phylip)                   
 - Runs IQ-TREE (iqtree2 -m GTR+G) to infer the tree structure                   
@@ -68,7 +68,7 @@ Constructs a phylogenetic tree from the VCF file:
 python3 part_4_vcf_tree.py {input}.vcf
 ```
 
-💡 **part_5_vcf_kinship.py (Kinship Matrix Calculation)**                   
+### 💡 **part_5_vcf_kinship.py (Kinship Matrix Calculation)**                   
 Computes a KING-based kinship matrix using plink2 --make-king square:                   
 
 - Extracts kinship coefficients from the .king file
