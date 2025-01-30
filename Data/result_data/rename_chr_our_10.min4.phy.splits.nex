@@ -1,0 +1,46 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=10;
+TAXLABELS
+[1] 'SRR1239729'
+[2] 'SRR1240041'
+[3] 'SRR1239710'
+[4] 'SRR1239639'
+[5] 'SRR1240070'
+[6] 'SRR1239661'
+[7] 'SRR1239802'
+[8] 'SRR1239731'
+[9] 'SRR1239790'
+[10] 'SRR1239833'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=10 nsplits=21;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 6,
+	100	 2 6,
+	100	 5,
+	100	 2 5 6,
+	100	 3,
+	100	 4,
+	100	 9,
+	1	 4 9,
+	100	 7,
+	100	 8,
+	100	 7 8,
+	100	 4 7 8 9,
+	100	 1 2 5 6 10,
+	100	 1 10,
+	100	 10,
+	100	 1,
+	98	 7 8 9,
+	1	 3 7 8,
+	1	 3 7 8 9,
+	1	 1 2 6 10,
+;
+END; [Splits]
+
