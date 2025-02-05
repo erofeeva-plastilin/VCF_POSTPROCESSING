@@ -91,8 +91,6 @@ Logs are stored in the "Logs" folder, while processed data is organized in the "
 
 The logs folder is created automatically
 
-## **Workflow**
-The pipeline follows a structured sequence of preprocessing steps:
 ```mermaid
 graph TD;
     A[Raw VCF] -->|Filtering| B[Filtered VCF]
@@ -111,4 +109,4 @@ graph TD;
     H --> K[Distance Matrix]
     H --> L[PCA Output]
     H --> M[Phylogenetic Tree]
-```
+
