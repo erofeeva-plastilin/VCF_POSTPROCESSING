@@ -94,22 +94,21 @@ The logs folder is created automatically
 ## **Workflow**
 The pipeline follows a structured sequence of preprocessing steps:
 
-```mermaid
 graph TD;
     A[Raw VCF] -->|Filtering| B[Filtered VCF]
-    B -->|Imputation (if enabled)| C[Imputed VCF]
-    B -->|Skip Imputation| D[Filtered (No Imputation)]
-    C -->|Unique ID Handling| E[VCF with Unique IDs]
-    D -->|Unique ID Handling| E[VCF with Unique IDs]
-    E -->|LD Pruning (if enabled)| F[Pruned VCF]
-    E -->|Skip LD Pruning| G[VCF without Pruning]
+    B --> C[Imputed VCF]
+    B --> D[Filtered VCF (No Imputation)]
+    C --> E[VCF with Unique IDs]
+    D --> E[VCF with Unique IDs]
+    E --> F[LD Pruned VCF]
+    E --> G[Non-Pruned VCF]
     
-    F -->|VCF Version Change| H[Updated VCF]
-    G -->|VCF Version Change| H[Updated VCF]
+    F --> H[Updated VCF (VCFv4.2)]
+    G --> H[Updated VCF (VCFv4.2)]
     
-    H -->|Heterozygosity| I[Heterozygosity Report]
-    H -->|Kinship Calculation| J[Kinship Matrix]
-    H -->|Genetic Distance Calculation| K[Distance Matrix]
-    H -->|Principal Component Analysis (PCA)| L[PCA Output]
-    H -->|Phylogenetic Tree Generation| M[Phylogenetic Tree]
-```
+    H --> I[Heterozygosity Report]
+    H --> J[Kinship Matrix]
+    H --> K[Distance Matrix]
+    H --> L[PCA Output]
+    H --> M[Phylogenetic Tree]
+
