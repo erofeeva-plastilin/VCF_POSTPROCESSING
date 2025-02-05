@@ -96,15 +96,21 @@ The pipeline follows a structured sequence of preprocessing steps:
 
 ```mermaid
 graph TD;
-    A[Raw VCF] --> B[Filtration]
-    B --> C[Optional: Imputation]
-    C --> D[Optional: Unique ID Handling]
-    D --> E[Optional: LD Pruning]
-    E --> F[Optional: Extracting Pruned Variants]
-    F --> G[VCF Header Fixing]
-    G --> H[Optional: Heterozygosity Calculation]
-    H --> I[Optional: Kinship Estimation]
-    I --> J[Optional: Genetic Distance Calculation]
-    J --> K[Optional: PCA]
-    K --> L[Optional: Phylogenetic Tree Construction]
+    A[Raw VCF] -->|Filtering| B[Filtered VCF]
+    B -->|Imputation (if enabled)| C[Imputed VCF]
+    B -->|Skip Imputation| D[Filtered (No Imputation)]
+    C -->|Unique ID Handling| E[VCF with Unique IDs]
+    D -->|Unique ID Handling| E[VCF with Unique IDs]
+    E -->|LD Pruning (if enabled)| F[Pruned VCF]
+    E -->|Skip LD Pruning| G[VCF without Pruning]
+    
+    F -->|VCF Version Change| H[Updated VCF]
+    G -->|VCF Version Change| H[Updated VCF]
+    
+    H -->|Heterozygosity| I[Heterozygosity Report]
+    H -->|Kinship Calculation| J[Kinship Matrix]
+    H -->|Genetic Distance Calculation| K[Distance Matrix]
+    H -->|Principal Component Analysis (PCA)| L[PCA Output]
+    H -->|Phylogenetic Tree Generation| M[Phylogenetic Tree]
+
 ```
