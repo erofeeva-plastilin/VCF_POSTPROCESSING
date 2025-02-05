@@ -90,3 +90,21 @@ Logs are stored in the "Logs" folder, while processed data is organized in the "
 - result_data → Includes examples of all generated output files from the pipeline
 
 The logs folder is created automatically
+
+## **Workflow**
+The pipeline follows a structured sequence of preprocessing steps:
+
+```mermaid
+graph TD;
+    A[Raw VCF] --> B[Filtration]
+    B --> C[Optional: Imputation]
+    C --> D[Optional: Unique ID Handling]
+    D --> E[Optional: LD Pruning]
+    E --> F[Optional: Extracting Pruned Variants]
+    F --> G[VCF Header Fixing]
+    G --> H[Optional: Heterozygosity Calculation]
+    H --> I[Optional: Kinship Estimation]
+    I --> J[Optional: Genetic Distance Calculation]
+    J --> K[Optional: PCA]
+    K --> L[Optional: Phylogenetic Tree Construction]
+```
