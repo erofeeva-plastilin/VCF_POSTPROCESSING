@@ -93,7 +93,7 @@ The logs folder is created automatically
 
 ## **Workflow**
 The pipeline follows a structured sequence of preprocessing steps:
-
+```mermaid
 graph TD;
     A[Raw VCF] -->|Filtering| B[Filtered VCF]
     B --> C[Imputed VCF]
@@ -111,4 +111,4 @@ graph TD;
     H --> K[Distance Matrix]
     H --> L[PCA Output]
     H --> M[Phylogenetic Tree]
-
+```
