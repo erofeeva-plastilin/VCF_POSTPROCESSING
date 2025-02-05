@@ -94,19 +94,27 @@ The logs folder is created automatically
 ```mermaid
 graph TD;
     A[Raw VCF] -->|Filtering| B[Filtered VCF]
-    B --> C[Imputed VCF]
-    B --> D[Filtered VCF No Imputation]
+    
+    B -->|Imputation| C[Imputed VCF]
+    B -->|No Imputation| D[Filtered VCF No Imputation]
+
     C --> E[VCF with Unique IDs]
     D --> E[VCF with Unique IDs]
-    E --> F[LD Pruned VCF]
-    E --> G[Non-Pruned VCF]
-    
+
+    E -->|LD Pruning| F[Pruned VCF]
+    E -->|No Pruning| G[Non-Pruned VCF]
+
     F --> H[Updated VCF VCFv4.2]
     G --> H[Updated VCF VCFv4.2]
-    
+
     H --> I[Heterozygosity Report]
-    H --> J[Kinship Matrix]
-    H --> K[Distance Matrix]
-    H --> L[PCA Output]
-    H --> M[Phylogenetic Tree]
+    H --> J[Kinship Matrix Calculation]
+    H --> K[Genetic Distance Calculation]
+    H --> L[PCA Analysis]
+    H --> M[Phylogenetic Tree Generation]
+
+    J --> N[Final Kinship Matrix]
+    K --> O[Final Distance Matrix]
+    L --> P[PCA Eigenvalues & Eigenvectors]
+    M --> Q[Phylogenetic Tree]
 ```
